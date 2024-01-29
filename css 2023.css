@@ -1,0 +1,797 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cookie&family=IM+Fell+DW+Pica&family=Marcellus&family=Oswald:wght@700&family=Overlock&family=Rye&family=Allura&family=Fasthand&family=Poppins&family=Parisienne&family=Satisfy&family=Freehand&family=Gloria+Hallelujah&family=Kristi&family=Bilbo+Swash+Caps&family=Montserrat&family=Cookie&display=swap');
+
+/*******<link rel="stylesheet" type="text/css" href="https://drive.google.com/uc?export=view&id=17QB3-B_9TcuVksebA0E1KW0h_Xt72WtC">*******/
+
+
+/*******PLAYER SIG*******/
+
+#dashsig * {
+  box-sizing: border-box;
+  line-height: normal;
+  --bg: rgba(60,39,51,.75);
+  --bg1: rgba(129,74,105.75);
+  --main: rgb(212,131,111);
+  --accent1: rgb(129,74,105);
+  --accent2: rgb(129,74,105);
+  --accent3: rgb(222,153,128);
+  --accent4: rgba(28,21,25,.25);
+  --accent5: rgb(190,87,82);
+}
+
+#dashsig .dashsig {
+  position: relative;
+  margin: 0 auto;
+  width: calc(100% - 20px);
+  max-width: 550px;
+  height: auto;
+  min-height: 150px;
+  background: url('https://i.postimg.cc/Qx7hFDvX/sunset-ge47b605ca-1920.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  border-radius: 55px 55px 55px 55px / 55px 5px 55px 5px; 
+}
+
+#dashsig .dashsig h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 30px;
+  background: linear-gradient(to top, var(--main) 20%, var(--accent3), var(--bg) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 1px var(--accent4);
+  top: -5px;
+  right: 80px;
+  margin-bottom: -20px;
+  padding: 5px 20px 0 0;
+  text-align: right;
+}
+
+#dashsig .dashcont {
+  margin: auto;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  background: linear-gradient(to bottom, var(--bg), var(--bg1));
+  padding: 10px 20px 10px;
+  text-align: center;
+  color: var(--main);
+  border-radius: 55px 55px 55px 55px / 55px 5px 55px 5px; 
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+#dashsig .dashcont hr {
+  height: 3px; 
+  padding-top: 0px; 
+  padding-bottom: -10px; 
+  padding-right: 3px; 
+  padding-left: 3px; 
+  border: 0px; 
+  border-radius: 0px; 
+  background-image: linear-gradient(to right, var(--main), var(--accent5)); 
+  line-height: -10px;
+}
+
+#dashsig .dashcont a {
+	border-bottom: none;
+}
+
+/*******PLAYER MISC*******/
+
+#dashmisc * {
+  box-sizing: border-box;
+  line-height: normal;
+  --bg: rgba(60,39,51,.75);
+  --bg1: rgba(129,74,105.75);
+  --main: rgb(212,131,111);
+  --accent1: rgb(129,74,105);
+  --accent2: rgb(129,74,105);
+  --accent3: rgb(222,153,128);
+  --accent4: rgba(28,21,25,.25);
+  --accent5: rgb(190,87,82);
+}
+
+#dashmisc .dashmiscp {
+  position: relative;
+  margin: auto;
+  padding: 20px 0;
+  width: calc(100% - 50px);
+  max-width: 550px;
+  height: auto;
+  background: url('https://i.postimg.cc/Qx7hFDvX/sunset-ge47b605ca-1920.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  border-radius: 55px 55px 55px 55px / 55px 5px 55px 5px; 
+}
+
+#dashmisc .dashmiscp h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 40px;
+  background: linear-gradient(to top, var(--main) 20%, var(--accent3), var(--bg) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 1px var(--accent4);
+  margin: -10px 0 -20px;
+  text-align: center;
+}
+
+#dashmisc .misccont {
+  margin: auto;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  background: linear-gradient(to bottom, var(--bg), var(--bg1));
+  padding: 10px 20px 10px;
+  text-align: left;
+  color: var(--main);
+  border-radius: 55px 55px 55px 55px / 55px 5px 55px 5px; 
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+#dashmisc .misccont hr {
+  height: 2px; 
+  padding-top: 0px; 
+  padding-bottom: -10px; 
+  padding-right: 3px; 
+  padding-left: 3px; 
+  border: 0px; 
+  border-radius: 0px; 
+  background-image: linear-gradient(to bottom, var(--main), var(--accent5), var(--main)); 
+  line-height: -10px;
+}
+
+#dashmisc .misccont a {
+	border-bottom: none;
+}
+
+#dashmisc .dashmiscp h2 {
+  font-family: 'Parisienne', cursive;
+  font-size: 25px;
+  background: var(--accent5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 1px var(--accent4);
+  margin: 0px 0 -5px;
+  text-align: left;
+}
+
+/*******TEIMYN*******/
+
+#teimyn {
+  box-sizing: border-box;
+  line-height: normal;
+  --bg: linear-gradient(to bottom, rgba(62, 7, 13, 0), rgba(62, 7, 13, 1));
+  --text: 16px "IM Fell DW Pica", serif;
+  --accent1: rgba(253, 136, 145, 0.5);
+  --accent2: #fd8891;
+  --accent3: #9e1f26;
+  --bg1: rgba(62, 7, 13, 0.5);
+}
+
+#teimyn .contain {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: repeat(150px);
+  grid-template-columns: repeat(auto);
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  width: calc(100% - 100px);
+  max-width: 550px;
+  height: 800px;
+  background: linear-gradient(
+      to top,
+      rgba(62, 7, 13, 0),
+      rgba(62, 7, 13, 1) 40%
+    ),
+    url("https://img.nickpic.host/QCLxPP.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border: 5px double #fd8891;
+}
+
+#teimyn .post {
+  box-sizing: border-box;
+  grid-row: 2;
+  grid-column: 1 / span 3;
+  margin: auto;
+  width: calc(90% - 50px);
+  background: var(--bg1);
+  height: calc(100% - 20px);
+  overflow: auto;
+  text-align: justify;
+  padding: 10px;
+  font: var(--text);
+  color: #e5e4e2;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
+
+#teimyn .post:first-letter {
+  color: rgb(62, 7, 13);
+  float: left;
+  font-family: "Rye";
+  font-size: 50px;
+  line-height: 30px;
+  padding: 4px 6px 4px 3px;
+  background: rgba(253, 136, 145, 0.75);
+  margin-right: 7px;
+  border: 5px double rgb(62, 7, 13);
+}
+#teimyn .post b, .post i {
+  color: var(--accent2);
+  font-family: "Overlock", serif;
+}
+
+#teimyn .post b {
+  color: #fde08d;
+  background: -webkit-linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  background: linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#teimyn .derg img {
+  position: relative;
+  grid-row: 1;
+  grid-column: 1;
+  padding: 10px;
+  width: 200px;
+}
+
+#teimyn .tags {
+  grid-row: 3;
+  grid-column: 1 / span 3;
+  margin: 0 auto 13px;
+  background-color: var(--accent1);
+  padding: 5px;
+  font-family: "Overlock";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3e070d;
+}
+
+#teimyn .tags::before {
+  content: "tagged for";
+}
+
+#teimyn .tags a {
+  border-bottom: none;
+  color: #3e070d;
+}
+
+#teimyn .title-wrap {
+  position: relative;
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 2;
+  justify-items: center;
+  align-items: center;
+  font-family: "Rye";
+  font-size: 40px;
+  text-transform: uppercase;
+  color: var(--accent1);
+  width: 100%;
+}
+
+#teimyn .title1 {
+  box-sizing: border-box;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -80%);
+  width: 100%;
+  font-family: "IM Fell DW Pica";
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fde08d;
+  background: -webkit-linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  background: linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#teimyn .title-wrap::after {
+  content: "&";
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  opacity: 40%;
+  font-size: 120px;
+}
+
+#teimyn .title2 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -40%);
+  font-family: "Cookie";
+  font-size: 60px;
+  text-transform: none;
+  color: #fde08d;
+  background: -webkit-linear-gradient(top, #fd8891 40%, #f9232f 70%);
+  background: linear-gradient(top, #fd8891, #f9232f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*******N'LYSE*******/
+
+#dashnye * {
+  box-sizing: border-box;
+  line-height: normal;
+  white-space: pre-line;
+  font-size: 16px;
+  --bg: #3d5773;
+  --maintxt: #628cb2;
+  --speech: #89a7c2;
+  --accent1: #212a37;
+  --accent2: #2d3e54;
+  --accent3: #282f37;
+}
+
+#dashnye .nye {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ;
+  grid-template-rows: repeat(1fr);
+  width: calc(100% - 50px);
+  max-width: 550px;
+  height: auto;
+  background: var(--bg);
+  border: 4px solid var(--accent3);
+}
+
+#dashnye .nlimg {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 3;
+  width: calc(100%);
+  max-width: 550px;
+  height: 200px;
+  background-image: url('https://i.postimg.cc/t4zwStTm/hd-wallpaper-g59fd92650-1920.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 4px solid var(--accent3);
+  background-color: #697184;
+  background-blend-mode: overlay;
+}
+
+#dashnye .nlban {
+  width: 100%;
+  height: 50px;
+  grid-row: 1;
+  grid-column: 1 / span 3;
+  align-self: center;
+  background: var(--bg);
+}
+#dashnye .nlname {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--speech);
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -14px;
+}
+
+#dashnye .nlpost {
+  grid-column: 1 / span 3;
+  width: calc(100% - 60px);
+  padding: 20px 0;
+  margin: auto;
+  text-align: justify;
+  color: var(--maintxt);
+  font-family: 'Marcellus', serif;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px var(--accent2);
+  font-weight: 400;
+}
+
+#dashnye .nlpost b {
+  color: var(--speech);
+  font: 17px 'Overlock', sans-serif;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px var(--accent1);
+}
+
+#dashnye .nlpost i {
+  color: var(--speech);
+  font: 17px 'Overlock', sans-serif;
+  text-shadow: 1px 1px 2px var(--accent1);
+  font-style: italic;
+}
+
+#dashnye .nlpost:first-letter {
+  color: var(--bg);
+  float: left;
+  font-family: "Rye";
+  font-size: 50px;
+  line-height: 30px;
+  padding: 4px 6px 4px 3px;
+  background: var(--maintxt);
+  margin-right: 7px;
+  border: 5px double var(--bg);
+  text-shadow: none;
+}
+
+#dashnye .nltags {
+  grid-row: 1;
+  grid-column: 1 / span 3;
+  justify-self: center;
+  align-self: end;
+  background: linear-gradient(to right, transparent, var(--bg), var(--bg), transparent);
+  margin-bottom: 30px;
+  padding: 2px 150px 4px;
+  font: 14px 'overlock';
+  text-transform: uppercase;
+}
+#dashnye .nltags a {
+  border-bottom: none;
+  color: var(--maintxt);
+}
+
+
+/*******WYNNE*******/
+
+#dashwynne * {
+  line-height: normal;
+  box-sizing: border-box;
+  white-space: pre-line;
+  position: relative;
+  --bg: rgba(92,67,78,.85);
+  --bg1: rgb(50,38,48);
+  --maintxt: rgb(205,130,128);
+  --speech: rgb(242,182,159);
+  --accent: rgb(250,215,182);
+  --accent2: rgb(174,116,123);
+  --goldlt: rgb(255,204,51);
+  --goldm: rgb(218,165,32);
+  --goldd: rgb(153,101,21);
+}
+
+#dashwynne .wyncon {
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 50px auto 15px;
+  margin: auto;
+  width: calc(100% - 50px);
+  max-width: 550px;
+  height: 500px;
+  background-image: url('https://i.postimg.cc/D01ZXYgz/mountains-gfc58eefb0-1280.jpg');
+  border: 5px solid var(--maintxt);
+}
+
+#dashwynne .wyntag {
+  grid-row: 1 / span 3;
+  grid-column: 3;
+  width: 30px;
+  height: 490px;
+  
+}
+
+#dashwynne .wyntagt {
+  grid-row: 1 / span 3;
+  grid-column: 3;
+  position: relative;
+  transform: rotate(90deg);
+  text-align: left;
+  width: 490px;
+  height: 27px;
+  top: 252px;
+  left: -252px;
+  padding-left: 5px;
+  background: linear-gradient(to right, var(--bg), var(--bg), var(--maintxt), transparent, transparent);
+  color: var(--bg);
+  font-family: 'fasthand', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0px -1px 5px var(--maintxt);
+}
+
+#dashwynne .wynttl {
+  grid-row: 1 / span 3;
+  grid-column: 1;
+  background-color: var(--bg);
+  width: 50px;
+  height: 491px;
+  border-right: 5px solid;
+  border-image: linear-gradient(to bottom, var(--accent2), var(--goldlt), var(--accent2)) 0 1;
+}
+
+#dashwynne .wynttlt {
+  position: relative;
+  grid-row: 1 / span 3;
+  grid-column: 1;
+  transform: rotate(-90deg);
+  width: 490px;
+  top: 217px;
+  left: -208px;
+  font-family: 'Allura', cursive;
+  font-size: 50px;
+  text-align: center;
+  background: var(--goldlt);
+background: linear-gradient(to bottom, var(--goldd) 21%, var(--goldlt) 42%, var(--goldm) 64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#dashwynne .wyntagt a:link, .wyntagt a:visited, .wyntagt a:active {
+  color: var(--bg);
+  border-bottom: none;
+}
+
+#dashwynne .wynpost {
+  grid-row: 1 / span 3;
+  grid-column: 2 / span 1;
+  background: var(--bg);
+  margin: 20px auto;
+  padding: 10px;
+  width: calc(100% - 40px);
+  height: cacl(100% - 40px);
+  overflow: auto;
+  text-align: justify;
+  color: var(--maintxt);
+  text-shadow: 1px 1px 1px var(--bg1);
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  font-size: 12.5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#dashwynne .wynnepost::-webkit-scrollbar { /*Hides the scrollbar in Chrome*/
+  display: none;  
+}
+
+#dashwynne .wynpost b {
+  font-family: 'allura', cursive;
+  font-size: 17px;
+  color: var(--speech);
+  line-height: 14px;
+}
+
+#dashwynne .wynpost i {
+  color: var(--speech);
+}
+
+
+/*******TEIMYN 2*******/
+
+
+#dashteimyn * {
+  position: relative;
+  line-height: normal;
+  box-sizing: border-box;
+  font-size: 16px;
+  --bg: rgba(124,40,48, .90);
+  --maintxt: rgb(216,120,150);
+  --speech: rgb(232,153,124);
+  --accent1: rgba(58,40,48,.55);
+  --accent2: rgb(223,190,213);
+  --accent3: rgba(49,19,21, 1);
+  white-space: pre-line;
+}
+
+#dashteimyn .teimyncont {
+  display: grid;
+  grid-template-columns: 20px auto auto;
+  grid-template-rows: auto auto;
+  width: calc(100% - 20px);
+  max-width: 550px;
+  height: 700px;
+  padding-top: 12.5px;
+  margin: 25px auto;
+  background-image: url('https://i.postimg.cc/43vBWJxv/flower-gb8a857ec2-1920.jpg');
+  background-size: 550px;
+  background-repeat: no-repeat;
+}
+
+#dashteimyn .teimynpost {
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
+  width: calc(70% - 30px);
+  height: 730px;
+  margin: -25px 20px;
+  padding: 10px;
+  text-align: justify;
+  background-image: linear-gradient(to bottom, rgba(124,40,48, 1) 0%, rgba(124,40,48,0.8015406846332283) 4%, rgba(124,40,48,0.798739564185049) 96%, rgba(124,40,48,1) 100%);
+  color: var(--maintxt);
+  font: 16px "IM Fell DW Pica", serif;
+  overflow: auto;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+  border-left: 2px solid var(--accent1);
+  border-right: 2px solid var(--accent1);
+  text-shadow: 0px 0px 6px var(--accent3);
+}
+
+#dashteimyn .teimynpost::-webkit-scrollbar { /*Hides the scrollbar in Chrome*/
+  display: none;  
+}
+
+#dashteimyn .teimynpost jivikath {
+  text-shadow: none;
+}
+
+#dashteimyn .teimynpost b {
+  text-shadow: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: .2em;
+  font-family: 'Gloria Hallelujah', serif;
+  color: var(--speech);
+  background: radial-gradient(circle farthest-corner at center center, rgb(249,233,239), rgb(201,203,235));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#dashteimyn .teimynpost i {
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: .2em;
+  font-family: 'Gloria Hallelujah', serif;
+  color: rgb(201,203,235);
+}
+
+#dashteimyn .teimynderg {
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+  background-image: url('https://i.postimg.cc/fRCvd825/Jivikath-blank.png');
+  background-size: 100%;
+  position: absolute;
+  width: 250px;
+  height: 187px;
+  right: -30px;
+  bottom: -30px;
+}
+
+#dashteimyn .teimyntag {
+  position: absolute;
+  justify-self: center;
+  align-self: end;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  width: 400px;
+  margin-left: 40px;
+  bottom: 220px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  color: var(--accent3);
+  text-shadow: 0px 0px 2px rgba(201,203,235,1), 0px 0px 4px rgb(201,203,235);
+  font: 1.5em 'Freehand', cursive;  
+}
+
+#dashteimyn .teimyntag a {
+  border-bottom: none;
+  color: var(--accent3);
+}
+
+/*******thealdrae*******/
+
+.thea2 {
+  line-height: normal;
+  box-sizing: border-box;
+  margin: 5rem auto;
+  width: min(100%, 500px);
+  font-size: 16px;
+  background: #eee;
+  position: relative;
+  margin-bottom: 115px;
+}
+
+.thea-top {
+  padding: 2rem;
+  background: linear-gradient(70deg, rgba(17,27,30,1) 10%, rgba(62,165,118,1) 35%, rgba(47,76,88,1) 60%);
+  height: .05rem;
+}
+
+.thea-top img {
+  position: relative;
+  width: 100%;
+  top: -100px;
+}
+
+.thea-lyrics {
+  position: relative;
+  z-index: 2;
+  margin: 1rem auto -1rem;
+  width: 400px;
+  font-family: "lullabies-regular", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(47,76,88);
+  text-align: center;
+  line-height: 110%;
+  background: linear-gradient(70deg, rgba(47,76,88,1) 40%, rgba(62,165,118,1) 65%, rgba(17,27,30,1) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(244, 154, 127,.75);
+}
+
+.thea-post {
+  padding: 2rem;
+  min-height: 300px;
+  white-space: pre-line;
+  text-align: justify;
+  font-family:anisette-petite,sans-serif;
+  font-size: 1rem;
+  color: rgba(17,27,30,1);
+}
+
+.thea-post b {
+  font-family:coniferous,sans-serif;
+  color: rgba(62,165,118,1);
+  font-size: 1.05rem;
+}
+
+.thea-post i {
+  color: rgba(233,136,131,1);
+}
+
+.thea-post bi {
+	font-family:coniferous,sans-serif;
+	font-size: 1.05rem;
+	font-weight: 600;
+	font-style: italic;
+	color: #3ea576; 
+	background-image: linear-gradient(0deg, rgba(233, 136, 131,.75) 25%, transparent 0%);
+}
+
+.thea-bottom {
+  margin-top: 1.5rem;
+  padding: 2rem;
+  background: linear-gradient(70deg, rgba(47,76,88,1) 40%, rgba(62,165,118,1) 65%, rgba(17,27,30,1) 90%);
+  height: .05rem;
+}
+
+.thea-tag {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  text-align: center;
+  bottom: 8px;
+  font-size: .75rem;
+  background: linear-gradient(to right, rgba(62,165,118,0) 0%, rgba(47,76,88,.5) 40%, rgba(62,165,118,0) 100%);
+  padding: .25rem 0;
+}
+.thea-tag a {
+  border-bottom: none;
+  color: rgba(233,136,131,1);
+}
+
+.thea-lyric2 {
+  position: relative;
+  margin: -1rem auto;
+  width: 500px;
+  z-index: 2;
+  font-family: "lullabies-regular", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(47,76,88);
+  text-align: center;
+  line-height: 110%;
+  background: linear-gradient(70deg, rgba(47,76,88,1) 40%, rgba(62,165,118,1) 65%, rgba(17,27,30,1) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(244, 154, 127,.75);
+}
+
+.thea-bottom img {
+  position: relative;
+  width: 100%;
+  top: -100px;
+}
