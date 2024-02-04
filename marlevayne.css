@@ -1,0 +1,13 @@
+#dashin {
+    /* remove width when finished */
+    width: 600px; 
+    position: relative;
+    line-height: normal;
+    box-sizing: border-box;
+    font-size: 16px;
+    --bg-image: url('./temp-images/marlevayne.jpg');
+    --bg-color:  rgb(33, 78, 77);
+    --text-bg: rgba(33, 78, 77, .7);
+    --text: rgb(202, 126, 88);
+    --bg-color-rgb: 33,78,77;
+}

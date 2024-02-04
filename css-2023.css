@@ -1,8 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Cookie&family=IM+Fell+DW+Pica&family=Marcellus&family=Oswald:wght@700&family=Overlock&family=Rye&family=Allura&family=Fasthand&family=Poppins&family=Parisienne&family=Satisfy&family=Freehand&family=Gloria+Hallelujah&family=Kristi&family=Bilbo+Swash+Caps&family=Montserrat&family=Cookie&display=swap');
 
-/*******<link rel="stylesheet" type="text/css" href="https://drive.google.com/uc?export=view&id=17QB3-B_9TcuVksebA0E1KW0h_Xt72WtC">*******/
-
-
 /*******PLAYER SIG*******/
 
 #dashsig * {
@@ -794,4 +791,127 @@ background: linear-gradient(to bottom, var(--goldd) 21%, var(--goldlt) 42%, var(
   position: relative;
   width: 100%;
   top: -100px;
+}
+
+
+/********* Ne'lon **********/
+
+.hanne {
+	width: 550px;
+	position: relative;
+	margin:0 auto;
+  background-color: rgb(2, 40, 59);  
+}
+
+.hanne-img {
+	width: 550px;
+  height: 309px;
+	position: relative;
+	margin-left: auto;
+  margin-right: auto;
+	background-image: linear-gradient(to bottom, rgba(2, 40, 59, 0.0), rgba(2, 40, 59, 0.0)), url('https://i.postimg.cc/kMwjt8pp/sky-690293-640.png');
+	background-size: 550px 309px;
+  background-repeat: no-repeat;
+}
+  
+  .hanne-cont {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+	padding: 5px;
+	box-sizing: border-box;
+    overflow: auto;
+    position: relative;
+    text-align: justify;
+    color: #4f6c68;
+    background-color: rgba(2, 40, 59, 0.6);
+    text-shadow: 0px 0px 2px #02101b;
+    font-family: moret, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+  }
+  
+  .hanne-cont b {
+    color: #9abec0;
+    text-shadow: none;
+    font-family: coniferous, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .hanne-lyrics {
+    width: 500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: coniferous, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: center;
+    background: 
+      -webkit-linear-gradient(#9abec0, #4f6c68);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    padding: 10px 20px 20px 20px;
+  }
+  
+  .hanne-tags {
+    width: 525px;
+    position: relative;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+    top: -36px;
+    text-shadow: 0px 0px 2px #02101b;
+    font-family: moret, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #4f6c68;
+  }
+  
+  .hanne-tags-img {
+    width: 525px;
+    height: 51px;
+    margin: auto;
+    position: relative;
+    background-image: url('https://i.postimg.cc/SN6GCkMT/divider-5272994-1280.png');
+  }
+  
+  .hanne-tags a {
+    color: #4f6c68;
+    border: none;
+  }
+  
+  /* unvisited link */
+.hanne-tags a:link {
+  color: #4f6c68;
+  border: none;
+}
+
+/* visited link */
+.hanne-tags a:visited {
+  color: #4f6c68;
+  border: none;
+}
+
+/* mouse over link */
+.hanne-tags a:hover {
+  color: #9abec0;
+  border: none;
+}
+
+/* selected link */
+.hanne-tags a:active {
+  color: #4f6c68;
+  border: none;
 }
