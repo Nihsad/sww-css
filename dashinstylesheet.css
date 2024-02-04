@@ -1,0 +1,1915 @@
+/********* Player Sig **********/
+
+  .dashin-sig {
+    width: 500px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    background-image: url('https://i.postimg.cc/pVnsL6LY/abstract-4431599-640.jpg');
+    border: 4px double #915FA7;
+  }
+  
+  .dashin-sigcont {
+    width: 440px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 25px;
+    background-color: rgba(70, 34, 73, 0.8);
+    text-align: center;
+    color: #915FA7;
+    font-size: 11px;
+    font-family: georgia;
+  }
+  
+  .dashin-sigcont a:link {
+  color: #915FA7;
+  border: none;
+}
+
+  .dashin-sigcont a:visited {
+  color: #915FA7;
+  border: none;
+}
+
+  .dashin-sigcont a:hover {
+  color: #915FA7;
+  border: none;
+}
+
+  .dashin-sigcont a:active {
+  color: #915FA7;
+  border: none;
+}
+
+.dashin-title {
+  width: 400px;
+  font-family: 'Parisienne', cursive;
+  position: relative;
+  bottom: -18px;
+  padding-top: 5px;
+  padding-bottom: -35px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #CCB5D7;
+  text-shadow: 2px 2px 3px #874C8E;
+  font-size: 40px;
+  z-index: 3;
+}
+
+/********* A'srian **********/
+
+  
+.asrian-container {
+  width: 500px;
+  margin: 0 auto;
+  MARGIN-BOTTOM: 100PX;
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgb(199, 112, 37);
+  background-image: url("https://i.postimg.cc/4x0byDqH/Untitled-1.gif");
+  border: 2px solid;
+  z-index: 2;
+}
+
+.asrian-content {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #ddd9b6;
+  color: #5E4836;
+  font-size: 10.75pt;
+  font-family: playfair display;
+  overflow: auto;
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px 10px 40px 10px;
+  margin-top: 120px;
+  MARGIN-BOTTOM: 120PX;
+  box-shadow: 3px 3px 5px #5E4836;
+}
+
+  .asrian-content b{
+    color: #C77025;
+    text-shadow: 0.5px 0.5px #5E4836;
+    font-family: 'Kalam', cursive;
+    font-size: 16px;
+    line-height: 10px;
+  }
+
+  .asrian-content p:first-letter{
+    font-family: 'Rock Salt', cursive;
+    line-height: 10px;
+    font-size: 16px;  
+    font-weight: bold;
+    color: #C77025;
+    text-shadow: 1px 1px #5E4836;
+}
+
+.aisrib {
+  height: auto;
+  width: 470px;
+  background-image: url('https://i.postimg.cc/5tnJ8m5z/Untitled-2.gif');
+  position: absolute;
+  left: -2px;
+  font-size: 13pt;
+  margin: 20px 0px 10px 0px;
+  line-height: 30px;
+  color: #C77025;
+  border-radius: 0 15px 15px 0;
+  background-color: #ddd9b6;
+  box-shadow: 1px 2px 3px rgba(94, 72, 54,0.8);
+  font-family: 'Kalam', cursive;
+  font-weight: normal;
+  text-align: right;
+  border-top: 1px solid #5E4836;
+  border-bottom: 1px solid #5E4836;
+  border-right: 1px solid #5E4836;
+}
+
+.aisrib:before, .aisrib:after{
+  position:absolute;
+  content: '';
+  display: block;
+}
+
+.aisrib:before{
+  width: 7.504px;
+  height: 100%;
+  padding: 0 0 0.438em;
+  top:0;
+  left: -7.504px;
+  background: inherit;
+  border-radius: 0.313em 0 0 0.313em;
+}
+
+.aisrib:after{
+  width: 0.313em;
+  height: 0.313em;
+  background: rgba(0,0,0,0.35);
+  bottom: -0.313em;
+  left: -0.313em;
+  border-radius: 0.313em 0 0 0.313em;
+  box-shadow: inset -1px 2px 2px rgba(0,0,0,0.3);
+}
+
+.aisrib {
+    line-height: 1.143em;
+    padding: 0.5em;
+  }
+  
+.aisrib:before, .aisrib:after{
+    font-size: 0.714em;
+  }
+
+  .aisrib url {
+    opacity: 0.7;
+  }
+
+  .aisrib b {
+    text-shadow: 1px 1px #5E4836;
+    color: #C77025;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+  }
+  
+  .aisrib i {
+    color: #E2A345;
+    text-shadow: 0.5px 0.5px #5E4836;
+    font-weight: 800;
+  }
+
+  .aisrib br {
+    display: block;
+    margin-bottom: 2px;
+    font-size:2px;
+    line-height: 2px;
+  }
+
+.aisrib2 {
+  font-size: 25px !important;
+  font-family: rock salt;
+  box-sizing: border-box;
+  width: 535px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  background-image: url("https://i.postimg.cc/5tnJ8m5z/Untitled-2.gif");
+  background-color: #ddd9b6;
+  color: #E2A345;
+  text-align: center;
+  padding: 30px; 
+  margin-bottom: 100px;
+  margin-top: -205px;
+  outline: 0px solid #5E4836;
+  box-shadow: 5px 5px 10px #5E4836;
+   -webkit-text-stroke: 0.5px #5E4836;
+  transform-style: preserve-3d;
+  Z-INDEX: 2;
+}
+.aisrib2:before, .aisrib2:after {
+  content: "";
+  display: block;
+  background-image: linear-gradient(to bottom, rgba(199, 112, 37, 1.0), rgba(199, 112, 37, 1.0)), url("https://i.postimg.cc/5tnJ8m5z/Untitled-2.gif");
+  bottom: -25PX;
+  transform: translateZ(-2px);
+}
+
+
+.aisrib2 .aisrib2-content:before, .aisrib2 .aisrib2-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: rgba(94, 72, 54,0.8) transparent transparent transparent;
+  bottom: -25px;
+  transform: translateZ(-2px);
+}
+.aisrib2 .aisrib2-content:before {
+  left: -1PX;
+  TOP: 79PX;
+  border-width: 20PX 0 0 20PX;
+}
+.aisrib2 .aisrib2-content:after {
+  right: -1PX;
+  TOP: 79PX;
+  border-width: 20PX 20PX 0 0;
+}
+
+  .asrian-tags {
+    width: 496px;
+    background-color: #E2A345;
+    BOX-SIZING: BORDER-BOX;
+    color: #5E4836;
+    position: ABSOLUTE;
+    text-align: center;
+    margin-top: -160px;
+    padding: 5px 0;
+    margin-left: 0;
+    font-family: verdana;
+    font-size: 12px;
+    TEXT-TRANSFORM: UPPERCASE;
+    BOX-SHADOW: 0PX 2PX 3PX #5E4836;
+  }
+
+.asrian-tags a {
+  border: none;
+  color: #5E4836;
+  }
+  
+  /* unvisited link */
+.asrian-tags a:link {
+  border: none;
+  color: #5E4836;
+}
+
+/* visited link */
+.asrian-tags a:visited {
+  border: none;
+  color: #5E4836;
+}
+
+/* mouse over link */
+.asrian-tags a:hover {
+  border: none;
+  color: #5E4836;
+}
+
+/* selected link */
+.asrian-tags a:active {
+  border: none;
+  color: #5E4836;
+}
+  
+  /********* Fearne **********/
+  
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Noto+Sans+HK&family=Playfair+Display&family=Satisfy&display=swap');
+  
+  .fearne {
+    width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    border: 2px solid #5C7404;
+    border-radius: 60px 0px 60px 0px;
+    	--bg-color: #E4DCB8; 
+      --text-font: 13px 'georgia', serif;
+	    --font-color: #354206;  
+      --title-font: 40px 'satisfy', serif;
+      --title-text: rgb(164, 164, 16);
+      --lyrics-font: 25px 'Cookie', cursive;
+      --accent-color: #5C7404;
+      --accent-color2: #AFA86C;
+      --tags-font: 12px 'Noto Sans HK', sans-serif;
+    
+  }
+  
+  .fearne-img {
+    background-image:  linear-gradient(to bottom, rgba(117, 19, 93, 0), rgba(228, 220, 184, 1.0)), url('https://i.postimg.cc/9XsCfmtj/beach-394503-19201.jpg');
+    width: 496px;
+    height: 333px;
+    position: relative;
+    border-radius: 60px 0px 0px 0px;
+  }
+  
+  .fearne-title {
+    width: 300px;
+    position: relative;
+    margin-top: -135px;
+    margin-left: 180px;
+    font: var(--title-font);
+    color: var(--title-text);
+    font-style: italic;
+    text-shadow: 2px 1px 3px var(--font-color);
+  }
+  
+  .fearne-content {
+    width: 480px;
+    height: auto;
+    background-color: transparent;
+    position: relative;
+    text-align: justify;
+    margin-top: 10px;
+    padding: 10px;
+    font: var(--text-font);
+    color: var(--font-color);
+  }
+  
+  .fearne-content b {
+    text-shadow: 2px 1px 2px #5C7404;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 13px;
+    line-height: 10px;
+  }
+  
+  .fearne-tags {
+    width: 450px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--accent-color2);
+    text-align: right;
+    text-transform: uppercase;
+    font: var(--tags-font);
+    color: var(--font-color);
+    padding: 5px;
+  }
+  
+  .fearne-lyrics {
+    width: 450px;
+    position: relative;
+    margin-left: 25px;
+    margin-top: -210px;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 15px;
+    font: var(--lyrics-font);
+    color: var(--accent-color);
+    text-shadow: 2px 2px 3px #EFE6CE;
+  }
+  
+  .fearne-img2 {
+    background-image: url('https://i.postimg.cc/q72mHdX0/nature-3202959-960-720.jpg');
+    background-size: cover;
+    position: relative;
+    opacity: 0.6;
+    margin-top: -20px;
+    margin-left: 125px;
+    width: 250px;
+    height: 250px;
+    mix-blend-mode: multiply;
+    padding: 10px;
+  }
+  
+    /********* K'ver **********/
+    
+       @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat&family=Oswald&family=Patrick+Hand&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+  
+  .kver {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    position: relative;
+    background-color: #160B0D;
+    --bg-color:#ffffff;
+    --title-font: 30px 'Gloria Hallelujah', cursive;
+    --title-color: #A9384C;
+  }
+  
+  .kver-img {
+    width: 550px;
+    height: 696px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgb(22, 11, 13)), url('https://i.postimg.cc/2yyVrfDj/plant-4960675-19201.jpg');
+    position: relative;
+  }
+  
+  .kver-content {
+    width: 450px;
+    height: auto;
+    position: relative;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -730px;
+    background-color:rgba(255, 255, 255, 0.6);
+    font-family: 'Patrick Hand', cursive;
+    font-size:12pt; 
+    text-transform:normal!important;
+    text-align: justify;
+    color: #160B0D;
+  }
+  
+  .kver-lyric img{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -80px;
+    left: -30px;
+    opacity: 0.6;
+    background-size: contain;
+    border-radius: 50px;
+    border: 3px solid #4E0A1B;
+  }
+  
+    .kver-content b {
+    font-family:Oswald; 
+    text-shadow:0px 0px 1px #160B0D; 
+    font-size:11pt; 
+    text-transform:uppercase; 
+    color:#75142D;
+  }
+  
+  .kver-lyric {
+    position: relative;
+    font: var(--title-font);
+    color: var(--title-color);
+    text-shadow:2px 1px 2px #370714;
+    top: -714px;
+    left: 40px;
+    z-index: 2;    
+  }
+  
+  .kver-title {
+    width: 576px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    left: -13px;
+    top: -590px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #d59f9f;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #160B0D;
+    font-size: 50px;
+    z-index: 3;
+    opacity: 0.8;
+  }
+  
+  .kver-lyric:hover {
+  letter-spacing:2px; 
+  word-spacing:3px;
+  transition:ease all 2s;
+  }
+  
+  .kver-title b {
+    padding-top: 10px;
+    font-weight: normal;
+  }
+  
+  .kver-tags {
+    width: 450px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-family:Oswald; 
+    text-shadow:0px 0px 1px #160B0D; 
+    font-size:11pt; 
+    background-color: rgba(117, 20, 45, 0.5);
+    border: 1px dashed #370714;
+    text-transform:uppercase; 
+    color:#A9384C;
+    text-align: center;
+    padding: 2px;
+  }
+  
+  .kver-icon img{
+    width: 150px;
+    height: 150px;
+    top: -710px;
+    position: relative;
+    background-size: contain;
+    border-radius: 75px;
+    border: 3px solid #4E0A1B;
+    z-index: 1;
+    opacity: 0.7;
+    box-shadow: 2px 2px 3px #160B0D;
+  }
+  
+      /********* Teimyn **********/
+	  
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Merriweather&family=Montserrat&family=Mr+Dafoe&family=Zeyada&display=swap');
+  
+  .teimyn {
+    width: 550px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(248, 209, 227);
+    padding-top: 5px;
+    border: 4px solid rgb(246, 186, 198);
+    padding-bottom: 60px;
+  }
+  
+  .teimyn-tag {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: #3e070d;
+  }
+  
+  .teimyn-content {
+    width: 90%;
+    height: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 30px 10px;
+    overflow: auto;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    margin-bottom: -190px;
+    background-color: rgba(248, 209, 227, 0.4); 
+    color: #3e070d;
+    z-index: 2;
+    box-shadow: 2px 2px 3px rgb(246, 186, 198);
+    outline: 1px solid rgb(246, 186, 198);
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+  }
+  
+  .teimyn-content b {
+    color: rgb(255, 245, 253);
+    text-shadow: 2px 2px 3px rgb(246, 186, 198);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+  
+  .teimyn-content i {
+    color: #fd8891;
+  }
+  
+  /* width */
+.teimyn-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.teimyn-content::-webkit-scrollbar-track {
+  background: rgb(248, 209, 227);
+}
+
+/* Handle */
+.teimyn-content::-webkit-scrollbar-thumb {
+  background: rgb(253, 236, 244);
+}
+  
+  .teimyn-img {
+    width: 550px;
+    height: 385px;
+    position: relative;
+    background-image:
+    linear-gradient(to bottom, rgb(248, 209, 227), rgba(117, 19, 93, 0)), url('https://i.postimg.cc/sgXM6kWD/spring-background-4039218-6401.jpg');
+    top: 60px;
+  }
+  
+  .teimyn-title {
+    position: relative;
+    width: 450px;
+    margin: auto;
+    top: 175px;
+    z-index: 4;
+    font-family: 'Zeyada', cursive;
+    font-size: 45px;
+    text-align: right;
+    text-shadow: 2px 2px 3px rgb(246, 186, 198);
+    color: rgb(255, 245, 253);
+  }
+  
+  .teimyn-lyrics {
+    width: 70%;
+    position: relative;
+    top: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -80px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: #3e070d;
+    text-align: center;
+    mix-blend-mode: none;
+    opacity: 0.6;
+    text-shadow: 1px 1px 2px rgb(255, 245, 253);
+    z-index: 4;
+  }
+  
+      /********* N'lyse **********/  
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Metal+Mania&family=Odibee+Sans&display=swap');
+  
+  
+  .nlyse {
+    width: 550px;
+    margin: auto;
+    background-color: #142433;
+    position: relative;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-image: 
+    linear-gradient(to top, rgba(20, 36, 51, 0.6), rgba(20, 36, 51, 0.6)), url('https://i.postimg.cc/kgBsbT4Q/black-2696879-640.jpg');
+    border: 4px solid #466C86;
+  }
+  
+  .nlyse-content {
+    width: 80%;
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: #678EA7;
+    padding: 10px;
+    font-family: 'Fira Sans', serif;
+    font-size: 14px;
+    text-align: justify;
+    background-color: rgba(38, 67, 92, 1);
+    box-shadow: 4px 4px 5px #466C86;
+    
+  }
+  
+  .nlyse-content b {
+    color: #A9C5D4;
+    text-shadow: 2px 2px 2px #142433;
+  }
+  
+  .nlyse-title {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    color: #777f8e;
+    font-size: 55px;
+    padding: 10px;
+    background: url(https://i.postimg.cc/dVx2y0qH/ice-1997289-6401.jpg) no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+   -webkit-text-stroke: 0px #466C86;
+  }
+  
+  .nlyse-img {
+    width: 550px;
+    height: 309px;
+    position: relative;
+    background-image:
+    linear-gradient(to top, rgba(20, 36, 51, 0.0), rgba(20, 36, 51, 1.0)), url('https://i.postimg.cc/sDjVjHym/peak-4717299-6401.jpg');
+  }
+  
+  .nlyse-lyrics {
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    text-align: right;
+    width: 530px;
+    text-transform: lowercase;
+    background-color: #26435C;
+    font-family: 'Odibee Sans', sans-serif;
+    color: #A9C5D4;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px #142433;
+    border: 2px solid #466C86;
+    border-radius: 0px 100px 100px 0px;
+    background-image: linear-gradient(to left, rgba(38, 67, 92, 0), rgb(38, 67, 92, 1)), url('https://i.postimg.cc/sDjVjHym/peak-4717299-6401.jpg');
+    box-shadow: 2px 2px 5px #466C86;
+  }
+  
+  .nlyse-tags {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    background-color: #26435C;
+    font-family: 'Odibee Sans', sans-serif;
+    color: #142433;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px #A9C5D4;
+  }
+  
+      /********* Marlevayne **********/
+
+  @import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Francois+One&family=Playfair+Display&family=Yellowtail&display=swap');
+  
+  .marley {
+    width: 550px;
+    margin: auto;
+    background-color: #F7B48E;
+    border: 4px solid #5C3927;
+  }
+  
+  .marley-img {
+    width: 550px;
+    height: 412px;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(247, 180, 142, 0), rgba(247, 180, 142, 1.0)), url('https://i.postimg.cc/d3cf8B90/shell-1031290-640.jpg');
+  }
+  
+  .marley-title {
+    position: relative;
+    top: -190px;
+    padding-left: 10px;
+    font-family: 'Dawning of a New Day', cursive;
+    color: #97a884;
+    font-size: 45px;
+    transform: rotate(-1.5deg);
+    text-shadow: 1px 1px 2px #292e28;
+  }
+  
+  .marley-content {
+    width: 500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -200px;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #1B1416;
+    top: -100px;
+    z-index: 3;
+  }
+  
+  .marley-content b {
+    color: #97a884;
+    text-shadow: 0px 0px 2px #000;
+    font-family: 'Francois One', sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+  }
+  
+  .marley-content p:first-letter {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: bold;
+    color: #E3D6C9;
+    text-shadow: 1px 1px 1px #1B1416;
+  }
+  
+  .marley-img2 {
+    background-image: linear-gradient(to top, rgba(247, 180, 142, 0), rgba(247, 180, 142, 1.0)), url('https://i.postimg.cc/8PD5tyJn/evening-55067-6401.png');
+    width: 550px;
+    height: 309px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -100px;
+    opacity: 1;
+    position: relative;
+    top: -100px;
+  }
+  
+  .marley-tags {
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top: -110px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 25px;
+    color: #BC7C68;
+    text-shadow: 1px 1px 2px #1B1417;
+    }
+	
+  .marley-tags a {
+	font-family: 'Yellowtail', cursive;
+    font-size: 25px;
+    color: #BC7C68;
+    text-shadow: 1px 1px 2px #1B1417;
+  }
+  
+  .marley-lyrics {
+    width: 500px;
+    margin: auto;
+    position: relative;
+    font-family: 'Yellowtail', cursive;
+    font-size: 22px;
+    text-align: center;
+    color: #E3D6C9;
+    top: 150px;
+    z-index: 3;
+    mix-blend-mode: overlay;
+    text-shadow: 1px 1px 2px #1B1416;
+    line-height: 30px;
+	letter-spacing: 1px;
+  }	  
+	  
+      /********* B'ryn **********/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=La+Belle+Aurore&family=Marcellus+SC&family=Over+the+Rainbow&family=Parisienne&family=Raleway:wght@500&display=swap');
+  
+  .brynnew {
+    width: 550px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #43652E;
+    padding-bottom: 10px;
+    border: 4px double #78C438;
+    border-radius: 0px 40px 0px 40px;
+  }
+  
+  .bryn-icon img{
+    position: relative;
+    z-index: 2;
+    left: 350px;
+    top: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 3px solid #21251A;
+  }
+  
+  .bryn-img {
+    width: 550px;
+    height: 800px;
+    position: relative;
+    margin: auto;
+    background-image: linear-gradient(to bottom, rgba(117, 19, 93, 0), rgb(67, 101, 46)), url('https://i.postimg.cc/qMn2KKjh/wood-1350175-19201.jpg');
+    border-radius: 0px 40px 0px 40px;
+  }
+  
+  .bryn-lyrics {
+    width: 400px;
+    margin-left: -30px;
+    margin-right: auto;
+    top: 60px;
+    position: relative;
+    z-index: 4;
+    color: #B8BFAB;
+    font-family: 'Over the Rainbow', cursive;
+    line-height: 25px;
+    font-size: 20px;
+    background-color: rgba(67, 101, 46, 0.8);
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid #43652E;
+    box-shadow: 5px 5px 5px #21251A
+    
+  }
+  
+  .bryntitle {
+    position: relative;
+    font-family: 'Parisienne', cursive;
+    z-index: 4;
+    padding-left: 20px;
+    top: -3px;
+    color: #78C438;
+    font-size: 50px;
+    mix-blend-mode: ;
+    text-shadow: 2px 2px 2px #21251A;
+  }
+  
+  .bryn-content {
+    width: 475px;
+    position: relative;
+    z-index: 3;
+    margin-top: -450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 20px 10px 10px 20px;
+    background-color: rgba(97, 138, 69, 0.8);
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    border: 2px solid #618A45;
+    color: #21251A;
+  }
+  
+  .bryn-content b {
+    color: #B8BFAB;
+    font-family: 'Over the Rainbow', cursive;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 10px;
+  }
+  
+  .bryn-tags {
+    width: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(97, 138, 69, 0.4);
+    border: 1px dotted #21251A;
+    font-family: 'Marcellus SC', serif;
+    color: #21251A;
+  }
+
+  .bryn-tags a {
+    color: #21251A;
+	border: none;
+  }
+
+/********* K'eir **********/
+
+.keir-contain {
+  width: 550px;
+  position: relative;
+  margin: auto;
+  background-image: url('https://i.postimg.cc/KvwVY6s8/13-1.jpg');
+  background-size: 300px 300px;
+  background-repeat: repeat;
+  border: 4px solid #271016;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.keir-new {
+	width: 90%;
+  overflow: auto;
+	position: relative;
+	margin: auto;
+  background-image: radial-gradient(#4a3b3e, #665357, #d2c2a2);
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px #130b0f;
+}
+
+.keir-new-content {
+  width: 90%;
+	margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 10px 0px;
+	position: relative;
+  text-align: justify;
+  color: #130b0f;
+  font-family: Open Sans Condensed;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  text-shadow: 0px 0px 1px #070405;
+}
+
+.keir-new-content b {
+  color: #c6ad98;
+  text-shadow: 0px 0px 3px #070405;
+  font-family: Amatic SC;
+  font-size: 25px;
+}
+
+.keir-new-tags {
+  width: 90%;
+	margin-left: 55px;
+  margin-top: 0px;
+  padding: 20px 0px 10px 0px;
+	position: relative;
+  font-family: bello-pro, sans serif;
+  font-size: 20px;
+  color: #130b0f
+}
+
+.keir-new-tags a {
+	color: #130b0f;
+	border: none;
+}
+
+.quill-img {
+  position: relative;
+  margin-left: 55px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url('https://i.postimg.cc/85mTSp13/abstract-1299326-640-rs.png');
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/********* Ne'lon **********/
+
+.hanne {
+	width: 550px;
+	position: relative;
+	margin:0 auto;
+  background-color: rgb(2, 40, 59);  
+}
+
+.hanne-img {
+	width: 550px;
+  height: 309px;
+	position: relative;
+	margin-left: auto;
+  margin-right: auto;
+	background-image: linear-gradient(to bottom, rgba(2, 40, 59, 0.0), rgba(2, 40, 59, 0.0)), url('https://i.postimg.cc/kMwjt8pp/sky-690293-640.png');
+	background-size: 550px 309px;
+  background-repeat: no-repeat;
+}
+  
+  .hanne-cont {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+	padding: 5px;
+	box-sizing: border-box;
+    overflow: auto;
+    position: relative;
+    text-align: justify;
+    color: #4f6c68;
+    background-color: rgba(2, 40, 59, 0.6);
+    text-shadow: 0px 0px 2px #02101b;
+    font-family: moret, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+  }
+  
+  .hanne-cont b {
+    color: #9abec0;
+    text-shadow: none;
+    font-family: coniferous, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .hanne-lyrics {
+    width: 500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: coniferous, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: center;
+    background: 
+      -webkit-linear-gradient(#9abec0, #4f6c68);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    padding: 10px 20px 20px 20px;
+  }
+  
+  .hanne-tags {
+    width: 525px;
+    position: relative;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+    top: -36px;
+    text-shadow: 0px 0px 2px #02101b;
+    font-family: moret, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #4f6c68;
+  }
+  
+  .hanne-tags-img {
+    width: 525px;
+    height: 51px;
+    margin: auto;
+    position: relative;
+    background-image: url('https://i.postimg.cc/SN6GCkMT/divider-5272994-1280.png');
+  }
+  
+  .hanne-tags a {
+    color: #4f6c68;
+    border: none;
+  }
+  
+  /* unvisited link */
+.hanne-tags a:link {
+  color: #4f6c68;
+  border: none;
+}
+
+/* visited link */
+.hanne-tags a:visited {
+  color: #4f6c68;
+  border: none;
+}
+
+/* mouse over link */
+.hanne-tags a:hover {
+  color: #9abec0;
+  border: none;
+}
+
+/* selected link */
+.hanne-tags a:active {
+  color: #4f6c68;
+  border: none;
+}
+
+/********* G'yon **********/
+
+.gyonnew {
+  width: 550px;
+  height: 600px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0px auto;
+  display: flex;
+  background-image: linear-gradient(to bottom, #1A0B06, #472413);
+  background-color: #cdc;
+  outline: 4px solid #B08C66;
+}
+
+#gyonnew-cont {
+  width: 80%;
+  height: 90%;
+  box-sizing: border-box;
+  overflow: auto;
+  align-self: center;
+  margin: 0px 0px 0px 80px;
+  position: absolute;
+  background-color: rgba(136, 103, 70, 0.8);
+  z-index: 2;
+  text-align: justify;
+  padding: 0 10px;
+  border-top: 8px solid transparent;     
+  border-bottom: 8px solid transparent;
+  outline: 2px solid rgba(184, 135, 58, 0.6);
+  color: #1A0B06;
+  font-family: 'temeraire', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13.5px;
+}
+
+#gyonnew-cont b {
+  font-family: anisette-petite, sans-serif;
+  font-size: 15px;
+  text-shadow: 0px 0px 3px #1A0B06;
+  color: #B08C66;
+  letter-spacing: 0.5px;
+}
+
+#gyonnew-img {
+  background-image: url('https://i.postimg.cc/hPx5WgrW/vintage-4939941-640.jpg');
+  width: 40px;
+  position: relative;
+  display: flex;
+  z-index: 2;
+}
+
+#gyonnew-stripe {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  bottom: -450px;
+  left: 360px;
+  clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+  background-color: rgb(26, 11, 6);
+  z-index: 1;
+}
+
+  /* width */
+#gyonnew-cont::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#gyonnew-cont::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+#gyonnew-cont::-webkit-scrollbar-thumb {
+  background: rgba(176, 140, 102, 0.4);
+}
+
+#gyonnew-name {
+  position: relative;
+  transform: rotate(-90deg);
+  left: -75px;
+  font: normal 700 25px/15px anisette-std, sans-serif;
+  color: #4d1812;
+  -webkit-text-stroke: 0.75px #b8873a;
+}
+
+#gyonnew-cont h2 {
+  color: #1A0B06;
+  font-family: 'temeraire', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13.5px;
+  text-transform: uppercase;
+}
+
+#gyonnew-cont a {
+  border: none;
+  color: #1A0B06;
+  }
+  
+  /* unvisited link */
+#gyonnew-cont a:link {
+  border: none;
+  color: #1A0B06;
+}
+
+/* visited link */
+#gyonnew-cont a:visited {
+  border: none;
+  color: #1A0B06;
+}
+
+/* mouse over link */
+#gyonnew-cont a:hover {
+  border: none;
+  color: #1A0B06;
+}
+
+/* selected link */
+#gyonnew-cont a:active {
+  border: none;
+  color: #1A0B06;
+}
+
+/******** THEALDRAE ********/
+
+.thealdrae {
+  width: 550px;
+  min-height: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  padding: 20px 0px;
+  background-image: linear-gradient(to bottom, #361125, #000000, #000000);
+  border-right: 70px solid #c5bbff;
+}
+
+.thea-title {
+  width: auto;
+  height: auto;
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 300px;
+  right: -323px;
+  color: #c5bbff;
+  font-size: 70px;
+  font-family: eb garamond;
+  text-shadow: 0px 0px 0px;
+  letter-spacing: 2px;
+}
+
+.thea-cont {
+  width: 400px;
+  height: auto;
+  position: relative;
+  box-sizing: border-box;
+  margin-left: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: justify;
+  color: #a593ff;
+  font-family: eb garamond;
+  font-size: 16px;
+  text-shadow: 0px 0px 3px #392137;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.thea-cont b {
+  color: #beb2fc;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.thea-cont i {
+  color: #9c909b;
+}
+
+.thea-img {
+  width: 400px;
+  height: 263px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-image: url('https://i.postimg.cc/jjQtQZ4D/flower-3132597-6401.jpg');
+  opacity: 0.6;
+  background-size: contain;
+  z-index: 1;
+}
+
+/******** XYDRIE ********/
+
+.xydrie {
+  width: 550px;
+  height: auto;
+  position: relative;
+  margin: auto;
+  background-color: #395c60;
+  padding-top: 25px;
+  border: 3px solid #20332d;
+  border-radius: 60px 60px 0px 0px;
+}
+
+.xydrie-cont {
+  width: 500px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -100px;
+  text-align: justify;
+  color: #0c1412;
+  font-family: Volkhov;
+  font-size: 13.5px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.xydrie-img {
+  position: relative;
+  background-image: linear-gradient(to bottom, #395c60, rgba(255,0,0,0)), url('https://i.postimg.cc/8cd8903K/meadow-3743023-640.jpg');
+  background-color: #395c60;
+  width: 550px;
+  height: 360px;
+}
+
+.xydrie-title {
+  position: absolute;
+  width: 550px;
+  bottom: 20px;
+  font-family: alex brush;
+  font-size: 60px;
+  text-align: center;
+  color: #fbfbbd;
+  text-shadow: 2px 2px 2px #20332d;
+}
+
+.xydrie-cont b {
+  color: #c5d28d;
+}
+
+.xydrie-cont a {
+  border: none;
+  color: #1A0B06;
+  }
+  
+  /* unvisited link */
+.xydrie-cont a:link {
+  border: none;
+  color: #1A0B06;
+}
+
+/* visited link */
+.xydrie-cont a:visited {
+  border: none;
+  color: #1A0B06;
+}
+
+/* mouse over link */
+.xydrie-cont a:hover {
+  border: none;
+  color: #1A0B06;
+}
+
+/* selected link */
+.xydrie-cont a:active {
+  border: none;
+  color: #1A0B06;
+}
+
+  /* width */
+.xydrie-cont::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.xydrie-cont::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.xydrie-cont::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/******** M'URN ********/
+
+.murn {
+  width: 550px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  background-image: linear-gradient( #361816, #9b8c8b, #361816);
+  padding: 180px 0 150px 0;
+  box-sizing: border-box;
+  border: 6px double #854f35;
+}
+
+.murn-cont {
+  width: 500px;
+  height: auto;
+  margin: auto;
+  padding: 5px;
+  position: relative;
+  text-align: justify;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  color: #f2f2f2;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  z-index: 2;
+  background-color: rgba(197, 174, 156, 0.5);
+  box-sizing: border-box;
+}
+
+.murn-cont b {
+  color: #f2f2f2; ebdba7
+  font-weight: 700; 
+  text-shadow: 1.5px 0px #b15b35, 0px 1.5px #b15b35, -1.5px 0px #b15b35, 0px -1.5px #b15b35;
+}
+
+.murn-cont p::first-letter {
+  font-size: 30px;
+  font-family: 'Grenze Gotisch', cursive;
+  text-transform: uppercase;
+  color: #59372e;
+  text-shadow: 1px 1px 1px #f2f2f2;
+  line-height: 0;
+}
+
+.murn-square {
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #6e4b37, #b28776);
+  position: absolute;
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 0 53%);
+}
+
+.murn-square2 {
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to right, #ebefd4, #b88769);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  clip-path: polygon(100% 100%, 0 100%, 100% 53%);
+}
+
+.murn-icon-bg {
+  width: 115px;
+  height: 115px;
+  top: 30px;
+  left: 30px;
+  box-sizing: border-box;
+  position: absolute;
+  transform: rotate(45deg); 
+  background-color: transparent;
+  border: 1px solid #d9c3bb;  
+}
+
+.murn-icon {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: -18.5px;
+  left: -18.5px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background-image: linear-gradient(rgba(178, 135, 118, 0.4), rgba(178, 135, 118, 0.4)), url('https://pbs.twimg.com/profile_images/914965636337553409/XAvTLVeF_400x400.jpg');
+  background-size: contain;  
+  transform: rotate(-45deg);
+}
+
+.murn-lyrics1 {
+  position: absolute;
+  bottom: 60px;
+  left: 22.5px;
+  font-family: 'Medula One', cursive;
+  font-size: 80px;
+  color: #854f35;
+  letter-spacing: -4px;
+  text-shadow: 2px 2px 2px #361816;
+}
+
+.murn-lyrics2 {
+  position: absolute;
+  font-family: 'Red Rose', cursive;
+  font-size: 20px;
+  color: #b28776;
+  text-shadow: 1px 0px #361816, 0px 1px #361816, -1px 0px #361816, 0px -1px #361816;
+  letter-spacing: -1px;
+  bottom: 43px;
+  right: 22.5px;
+}
+
+.murn-tags {
+  height: 20px;
+  width: 450px;
+  position: absolute;
+  box-sizing: border-box;
+  margin: auto;
+  color: #d9c3bb;
+  font-family: 'Red Rose', cursive;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  left: 45px;
+}
+
+.murn-tags a {
+  border: none;
+  color: #d9c3bb;
+  }
+  
+  /* unvisited link */
+.murn-tags a:link {
+  border: none;
+  color: #d9c3bb;
+}
+
+/* visited link */
+.murn-tags a:visited {
+  border: none;
+  color: #d9c3bb;
+}
+
+/* mouse over link */
+.murn-tags a:hover {
+  border: none;
+  color: #d9c3bb;
+  letter-spacing:2px; 
+  word-spacing:3px;
+  transition:ease all 2s;
+}
+
+/* selected link */
+.murn-tags a:active {
+  border: none;
+  color: #d9c3bb;
+}
+
+.murn-title1 {
+  position: absolute;
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 55px;
+  top: 60px;
+  right: 150px;
+  color: #854f35;
+  text-shadow: 2px 2px 1px #361816;
+}
+
+.murn-title2 {
+  position: absolute;
+  top: 90px;
+  right: 195px;
+  font-family: 'Red Rose', cursive;
+  font-size: 17px;
+  color: #b15b35;
+}
+
+.murn-title3 {
+  position: absolute;
+  height: 100px;
+  top: 105px;
+  right: 110px;
+  font-family: 'Alex Brush', cursive;
+  font-size: 65px;
+  background-image: linear-gradient(to right, #f0c687, #ebdba7);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding-left: 10px;
+  margin-left: -10px;
+}
+
+/******** B'GOR ********/
+
+.bgor {
+  width: 600px;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  background-color: #332326;
+  box-sizing: border-box;
+  z-index: 0;
+  border: 10px solid #000;
+}
+
+#bgor-banner {
+  position: relative;
+  margin: auto;
+  width: 580px;
+  height: 150px;
+  background-image: url('https://i.postimg.cc/0NDJHy0K/abstract-1782383-1920-1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /**resize 600x400**/
+}
+
+#bgor-text {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  border-top: 20px solid transparent;
+  color: #B67938;
+ /** background: -webkit-linear-gradient(#B67938, #E1BF7D, #B67938);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;**/
+  text-align: justify;
+  font-family: roboto condensed;
+  font-size: 14px;
+  letter-spacing: .5px;
+
+}
+
+#bgor-text b { 
+  font-family: 'Righteous', cursive;
+  font-size: 14px;
+  -webkit-text-fill-color: #821F0A;
+  text-shadow: 0 0 5px #DAAA52;
+}
+
+#bgor-title {
+  position: relative;
+  border-bottom: 10px solid transparent; 
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+  font-size: 45px;
+  background-color: #000;
+  color: transparent;
+  text-shadow: 0px 2px 0px #332326;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  text-align: center;
+top: 126px;
+  padding-top: 126px;
+  margin-top: -126px;
+  margin-right: 10px;
+  float: right;
+}
+
+#bgor-hr {
+  position: relative;
+  width: 90%;
+  height: 5px;
+  margin-top: 10px;
+  background-image: url('https://i.postimg.cc/0NDJHy0K/abstract-1782383-1920-1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /**background: -webkit-linear-gradient(180deg, #B67938, #E1BF7D, #B67938);
+  border-radius: 100px;**/
+}
+
+#bgor-lyrics {
+  position: relative;
+  width: 90%;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+  font-family: Satisfy;
+  font-size: 20px;
+  text-transform: lowercase;
+  background: -webkit-linear-gradient(#A0401B, #821F0A, #A0401B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 20px;
+  line-height: 22px;
+}
+
+#bgor-tag {
+  position: relative;
+  margin: auto;
+  color: #E1BF7D;
+  width: 90%;
+  height: auto;
+  font-family: roboto condensed;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-top: 20px solid transparent;
+  text-align: center;
+}
+
+#bgor-tag a {
+  border: none;
+  color: #E1BF7D;
+  }
+  
+  /* unvisited link */
+#bgor-tag a:link {
+  border: none;
+  color: #E1BF7D;
+}
+
+/* visited link */
+#bgor-tag a:visited {
+  border: none;
+  color: #A0401B;
+}
+
+/* mouse over link */
+#bgor-tag a:hover {
+  border: none;
+  color: #A0401B;
+  letter-spacing:2px; 
+  word-spacing:3px;
+  transition:ease all 2s;
+}
+
+/* selected link */
+#bgor-tag a:active {
+  border: none;
+  color: #E1BF7D;
+}
+
+/********* K'RAN **********/
+
+.kran {
+  position: relative;
+  height: 810px;
+  width: 500px;
+  background-color: #0c0e27;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  border: 10px solid #313e56;
+}
+
+#kran-img {
+  background-image: url('https://i.postimg.cc/LX0DXd0H/thunderstorm-5398664-1920.jpg');
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 480px;
+  height: 270px;
+  background-size: contain;
+  border-b
+  top: 0px;
+  left: 10px;
+}
+
+#kran-title {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  font-family: 'League Script', cursive;
+  font-size: 35px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+  font-weight: bolder;
+  text-shadow: -1px #121434;
+  background-image: linear-gradient(to right, #58697c, #BBC4CF, #58697c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#kran-text {
+  width: 470px;
+  height: 400px;
+  overflow: auto;
+  background-color: #5a6572;
+  position: absolute;
+  top: 290px;
+  color: #121434;
+  text-align: justify;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+  padding-right: 5px;
+  font-family: 'Hind', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#kran-text b {
+  color: #f5e6c0;
+  text-shadow: 2px 2px 3px #121434;
+  font-family: 'Economica', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#kran-lyric {
+  position: absolute;
+  width: 480px;
+  height: 100px;
+  background-color: #BBC4CF;
+  bottom: 10px;
+  left: 10px;
+}
+
+#kran-lyric-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-top: -10px;
+padding-bottom: -10px;
+top: 0px;
+  left: 10px;
+  font-family: 'Courgette', cursive;
+  color: #f5e6c0;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  background: -webkit-linear-gradient(#58697c, #2F455D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#kran-lyric-box1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  background-color: #58697c;
+  clip-path: polygon(0 34%, 0 100%, 100% 100%);
+}
+
+#kran-lyric-box2 {
+  position: absolute;
+  display: flex;
+  right: -1px;
+  top: -1px;
+  justify-content: flex-end;
+  width: 200px;
+  height: 100px;
+  background-color: #2F455D;
+  clip-path: polygon(0 0, 100% 0, 100% 66%);
+}
+
+  /* unvisited link */
+#kran-text a:link {
+  border: none;
+  color: #BBC4CF;
+}
+
+/* visited link */
+#kran-text a:visited {
+  border: none;
+  color: #BBC4CF;
+}
+
+/* mouse over link */
+#kran-text a:hover {
+  border: none;
+  color: #BBC4CF;
+}
+
+/* selected link */
+#kran-text a:active {
+  border: none;
+  color: #BBC4CF;
+}
+
+  /* width */
+#kran-text::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#kran-text::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+#kran-text::-webkit-scrollbar-thumb {
+  background: #BBC4CF;
+}
