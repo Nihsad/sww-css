@@ -89,7 +89,8 @@
   font: var(--it-font);
 }
 
-#dashin .valadrie-tag {
+#dashin .valadrie-tag a,
+#dashin .valadrie-tag a:visited {
   position: relative;
   margin: -10px auto 10px;
   width: 100%;
@@ -102,10 +103,6 @@
   font: 24px "Scrapbooker-Script", sans-serif;
   letter-spacing: 2px;
   z-index: 2;
-}
-
-#dashin .valadrie-tag a,
-#dashin .valadrie-tag a:visited {
   color: var(--bg-color);
   text-decoration: none;
   text-shadow: rgb(221, 222, 215) 0px 0px 5px, rgb(221, 222, 215) 0px 0px 8px,
