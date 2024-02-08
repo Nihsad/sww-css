@@ -107,7 +107,7 @@
   text-decoration: none;
   text-shadow: rgb(221, 222, 215) 0px 0px 5px, rgb(221, 222, 215) 0px 0px 8px,
     rgb(221, 222, 215) 0px 0px 10px;
-  border: none;
+  border-bottom: none;
 }
 
 #dashin .valadrie-tag a:hover {
