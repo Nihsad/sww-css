@@ -37,19 +37,19 @@
       color-stop(75%, var(--bg-color-rgba)),
       color-stop(95%, var(--bg-color))
     ),
-    var(--accent-img) no-repeat center/cover;
+    var(--accent-img) no-repeat 0 85%/cover;
   background: -o-linear-gradient(
       top,
       var(--bg-color-rgba) 75%,
       var(--bg-color) 95%
     ),
-    var(--accent-img) no-repeat center/cover;
+    var(--accent-img) no-repeat 0 85%/cover;
   background: linear-gradient(
       to bottom,
       var(--bg-color-rgba) 75%,
       var(--bg-color) 95%
     ),
-    var(--accent-img) no-repeat center/cover;
+    var(--accent-img) no-repeat 0 85%/cover;
 }
 
 #dashin .valadrie-post {
