@@ -1,115 +1,112 @@
-@import url("https://fonts.googleapis.com/css2?family=Palanquin&family=Palanquin+Dark&family=Peralta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Palanquin+Dark&family=Peralta&display=swap");
 
-#dashin {
+#dashin *{
   position: relative;
   line-height: normal;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-#dashin .valadrie-container {
-  --bg-image: url("https://i.postimg.cc/wT9WbwRx/i-Stock-1341466956.jpg");
-  --accent-img: url("https://i.postimg.cc/3wb310dZ/stones-5677828-1280.jpg");
-  --bg-color: rgb(38, 36, 47);
-  --text-bg: rgba(147, 156, 177, 0.7);
-  --text-color: rgb(68, 77, 86);
-  --text-accent: rgb(182, 167, 130);
-  --it-accent: rgba(147, 156, 177);
-  --bg-color-rgba: rgba(38, 36, 47, 0);
-  --text-shadow: rgba(215, 215, 213, 0.7);
-  --text-font: 14px "Palanquin", sans-serif;
-  --it-font: 14px "Palanquin Dark", sans-serif;
-  --speech-font: 12px "Peralta", sans-serif;
-  max-width: 550px;
+.valadrie-container {
+  --bg-image: url('https://i.postimg.cc/gJmLshVM/karsten-winegeart-g3-Y6ro-Wp-MYY-unsplash.jpg');
+  --bg-color: rgba(92,93,88,0.8);
+  --text-color: rgb(125,158,163);
+  --border-color: rgb(25,70,89);
+  --shadow-color: rgb(21,58,76);
+  --speech-color: rgb(164, 175, 167);
+  --main-font: 14px 'Poppins', sans-serif;
+  --speech-font: 14px 'Peralta', serif;
+  margin: 0 auto;
+  display: grid;
+  position: relative;
+  grid-template-columns: 5% 85% 10%;
+  grid-template-rows: auto auto;
+  grid-gap: 0px;
+  width: calc(100% - 20px);
+  max-width: 500px;
   height: 700px;
-  margin: 0 auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: var(--bg-color);
+  background: var(--bg-image) no-repeat center/cover;
+  border: 4px solid var(--text-color);
+  outline: 4px solid var(--shadow-color);
 }
 
-#dashin .valadrie-image {
+.valadrie-title {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 2;
+  margin: 0 auto;
   width: 100%;
-  height: 200px;
-  background: -webkit-gradient(
-      linear,
-      left top, left bottom,
-      color-stop(75%, var(--bg-color-rgba)),
-      color-stop(95%, var(--bg-color))
-    ),
-    var(--accent-img) no-repeat 0 85%/cover;
-  background: -o-linear-gradient(
-      top,
-      var(--bg-color-rgba) 75%,
-      var(--bg-color) 95%
-    ),
-    var(--accent-img) no-repeat 0 85%/cover;
-  background: linear-gradient(
-      to bottom,
-      var(--bg-color-rgba) 75%,
-      var(--bg-color) 95%
-    ),
-    var(--accent-img) no-repeat 0 85%/cover;
+  text-align: center;
+  margin: 5px 0 10px;
+  font: var(--speech-font);
+  color: var(--speech-color);
+  text-shadow: 2px 0px 1px var(--shadow-color);
 }
 
-#dashin .valadrie-post {
-  width: calc(100% - 40px);
-  height: calc(100% - 235px);
-  padding: 0 10px;
+.valadrie-post {
+  position: relative;
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 3;
+  width: calc(80%);
+  text-align: justify;
   overflow: auto;
+  margin: 20px 0;
+  background-color: var(--bg-color);
+  padding: 0 10px;
   scrollbar-width: none;
-  scrollbar-color: transparent transparent;
-  margin: 0 auto;
-  margin-top: -20px;
-  background-color: var(--text-bg);
-  outline: 4px var(--text-accent);
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   white-space: pre-line;
-  text-align: justify;
-  font: var(--text-font);
-  line-height: 150%;
+  outline: 4px solid var(--border-color);
   color: var(--text-color);
-
-  -webkit-box-sizing: border-box;
-
-          box-sizing: border-box;
+  text-shadow: 0px 0px 4px var(--shadow-color), 0px 0px 4px var(--shadow-color);
+  font: var(--main-font);
+  z-index: 1;
 }
 
-#dashin .valadrie-post q {
-  color: var(--text-accent);
-  font: var(--speech-font);
+.valadrie-post q {
+  color: var(--speech-color);
+  text-shadow: 2px 2px 0 var(--shadow-color), 2px -2px 0 var(--shadow-color), -2px 2px 0 var(--shadow-color), -2px -2px 0 var(--shadow-color), 2px 0px 0 var(--shadow-color), 0px 2px 0 var(--shadow-color), -2px 0px 0 var(--shadow-color), 0px -2px 0 var(--shadow-color), 2px 2px 0px rgba(21,58,76,0);
   letter-spacing: 1px;
-  font-weight: bold;
-  text-shadow: 0 0px 3px var(--text-shadow), 0 0px 4px var(--bg-color);
+  font: var(--speech-font);
 }
 
-#dashin .valadrie-post i {
-  color: var(--it-accent);
-  font: var(--it-font);
+.valadrie-post i {
+  color: var(--speech-color);
+  font: var(--speech-font);
+  font-style: italic;
 }
 
-#dashin .valadrie-tag a,
-#dashin .valadrie-tag a:visited {
+.valadrie-derg {
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 1;
+  background-image: url('https://i.postimg.cc/8PYBRGWv/Ossideth-blank.png');
+  background-size: 100%;
+  position: absolute;
+  width: 350px;
+  height: 303px;
+  right: 200px;
+  top: 20px;
+}
+
+.valadrie-tag {
   position: relative;
-  margin: -10px auto 10px;
-  width: 100%;
-  text-align: center;
-  display: inline-block;
-  padding-right: 40px;
-  -webkit-transition: color 1s ease-in-out;
-  -o-transition: color 1s ease-in-out;
-  transition: color 1s ease-in-out;
-  font: 24px "Scrapbooker-Script", sans-serif;
-  letter-spacing: 2px;
+  justify-self: start;
+  align-self: end;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  transform: rotate(-90deg);
+  bottom: 360px;
   z-index: 2;
-  color: var(--bg-color);
-  text-decoration: none;
-  text-shadow: rgb(221, 222, 215) 0px 0px 5px, rgb(221, 222, 215) 0px 0px 8px,
-    rgb(221, 222, 215) 0px 0px 10px;
-  border-bottom: none !important;
 }
 
-#dashin .valadrie-tag a:hover {
-  color: var(--text-accent);
+.valadrie-tag a,
+.valadrie-tag a:visited {
+  position: relative;
+  z-index: 1;
+  color: var(--speech-color) !important;
+  font-family: 'Peralta', serif;
+  border-bottom: none;
+  text-decoration: none;
+  bottom: 10px;
+  padding: 0 5px;
 }
