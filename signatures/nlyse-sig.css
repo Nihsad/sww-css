@@ -22,7 +22,7 @@
     font-size: 15px;
     color: var(--c1);
 }
-.nyename {
+#nyesig .nyename {
     grid-row: 1 / span 1;
     grid-column: 1 / span 3;
     font-family: atocha, sans-serif;
@@ -35,7 +35,7 @@
     line-height: 50%;
     text-shadow: 1px 1px 2px var(--c3), 1px -1px 2px var(--c2), -1px 1px 2px var(--c2), -1px -1px 2px var(--c2);
 }
-.nyerank {
+#nyesig .nyerank {
     grid-row: 2 / span 1;
     grid-column: 2 / span 1;
     position: relative;
@@ -47,7 +47,7 @@
     color: var(--c1);
     text-shadow: 1px 1px 1px var(--c3), 1px -1px 1px var(--c2), -1px 1px 1px var(--c2), -1px -1px 1px var(--c2);
 }
-.nyestats {
+#nyesig .nyestats {
     position: relative;
     top: 10px;
     left: -10px;
@@ -57,7 +57,7 @@
     line-height: 50%;
     text-shadow: 1px 1px 1px var(--c3), 1px -1px 1px var(--c2), -1px 1px 1px var(--c2), -1px -1px 1px var(--c2);
 }
-.nyeimg {
+#nyesig .nyeimg {
     position: relative;
     grid-row: 1 / span 3;
     grid-column: 1 / span 1;
