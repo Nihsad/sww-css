@@ -19,6 +19,7 @@
   #dashsig .dashsig {
     position: relative;
     margin: 0 auto;
+    padding: 5px 0;
     width: calc(100% - 20px);
     max-width: 550px;
     height: fit-content;
