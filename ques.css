@@ -1,0 +1,54 @@
+#qulin * {
+    box-sizing: border-box;
+    line-height: normal;
+  }
+  
+  .qulin-container {
+    margin: auto;
+    max-width: 550px;
+    background-image: url('https://static.colourlovers.com/images/patterns/1101/1101098.png');
+    height: auto;
+    padding: 45px 10px 25px;
+    border: 2px solid rgb(255, 165, 136);
+    outline: 4px solid rgb(49, 131, 129);
+  }
+  
+  .qulin-post {
+    width: 80%;
+    margin: 15px auto;
+    text-align: justify;
+    background-color: rgba(255, 165, 136,0.85);
+    color: rgb(81, 52, 83);
+    padding: 10px;
+    white-space: pre-line;
+    font-family: 'Poppins', sans-serif;
+    border: 6px double rgb(87, 46, 79);
+  }
+  
+  .qulin-post q {
+    color: rgb(33, 96, 109);
+    font-weight: bold;
+    font-family: 'Fauna One', serif;
+    text-shadow: 
+      1px 1px 2px rgba(191, 30, 98,0.5),
+      -1px 1px 2px rgba(191, 30, 98,0.5),
+      1px -1px 2px rgba(191, 30, 98,0.5),
+      -1px -1px 2px rgba(191, 30, 98,0.5);
+  }
+  
+  .qulin-post i {
+    color: rgb(191, 30, 98);
+  }
+  
+  .qulin-tag,
+  .qulin-tag a,
+  .qulin-tag a:hover {
+    margin: auto;
+    text-align: center;
+    font-family: "Syne Tactile", system-ui;
+    font-weight: bold;
+    color: rgb(81, 52, 83);
+    text-decoration: none;
+    border-bottom: none;
+    text-shadow: 0px 0px 2px rgb(255, 165, 136), 0px 0px 2px rgb(255, 165, 136)
+  }
