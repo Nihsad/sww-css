@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Overlock&family=Overlock+SC&display=swap');
+
+/*******PLAYER SIG*******/
+
+#dashsig * {
+    box-sizing: border-box;
+    line-height: normal;
+    --bg: rgba(60,39,51,.75);
+    --bg1: rgba(129,74,105.75);
+    --main: rgb(212,131,111);
+    --accent1: rgb(129,74,105);
+    --accent2: rgb(129,74,105);
+    --accent3: rgb(222,153,128);
+    --accent4: rgba(28,21,25,.25);
+    --accent5: rgb(190,87,82);
+    --main-10: rgba(212,131,111,.1);
+  }
+  
+  #dashsig .dashsig {
+    position: relative;
+    margin: 0 auto;
+    padding: 5px 0;
+    width: calc(100% - 20px);
+    max-width: 550px;
+    height: fit-content;
+    min-height: 150px;
+    background: url('https://i.postimg.cc/Qx7hFDvX/sunset-ge47b605ca-1920.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 55px 55px 55px 55px / 55px 5px 55px 5px;
+  }
+  
+  #dashsig .dashcont {
+    margin: 10px auto;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    background: linear-gradient(to bottom, var(--bg), var(--bg1));
+    padding: 10px 20px 10px;
+    text-align: center;
+    color: var(--main);
+    border-radius: 55px 55px 55px 55px / 55px 5px 55px 5px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+
+  #dashsig .dashcont h1 {
+    font-family: 'Overlock SC', cursive;
+    font-size: 15px;
+    margin: 10px 0 -15px;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  #dashsig .dashcont hr {
+    height: 2px; 
+    padding-top: 0px; 
+    padding-bottom: -10px; 
+    padding-right: 3px; 
+    padding-left: 3px; 
+    border: 0px; 
+    border-radius: 55px 55px 55px 55px / 55px 5px 55px 5px; 
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, var(--main-10) 25%, var(--accent5) 55%, var(--main-10) 95%, rgba(255,255,255,0) 100%); 
+    line-height: -10px;
+  }
+  
+  #dashsig .dashcont a {
+      border-bottom: none;
+  }
+  
+  /*******PLAYER MISC*******/
+  
+  #dashmisc * {
+    box-sizing: border-box;
+    line-height: normal;
+    --bg: rgba(60,39,51,.75);
+    --bg1: rgba(129,74,105.75);
+    --main: rgb(212,131,111);
+    --accent1: rgb(129,74,105);
+    --accent2: rgb(129,74,105);
+    --accent3: rgb(222,153,128);
+    --accent4: rgba(28,21,25,.25);
+    --accent5: rgb(190,87,82);
+  }
+  
+  #dashmisc .dashmiscp {
+    position: relative;
+    margin: auto;
+    padding: 20px 0;
+    width: calc(100% - 50px);
+    max-width: 550px;
+    height: auto;
+    background: url('https://i.postimg.cc/Qx7hFDvX/sunset-ge47b605ca-1920.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 55px 55px 55px 55px / 55px 5px 55px 5px; 
+  }
+  
+  #dashmisc .dashmiscp h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    background: linear-gradient(to top, var(--main) 20%, var(--accent3), var(--bg) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 1px var(--accent4);
+    margin: -10px 0 -20px;
+    text-align: center;
+  }
+  
+  #dashmisc .misccont {
+    margin: auto;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background: linear-gradient(to bottom, var(--bg), var(--bg1));
+    padding: 10px 20px 10px;
+    text-align: left;
+    color: var(--main);
+    border-radius: 55px 55px 55px 55px / 55px 5px 55px 5px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+  
+  #dashmisc .misccont hr {
+    height: 2px; 
+    padding-top: 0px; 
+    padding-bottom: -10px; 
+    padding-right: 3px; 
+    padding-left: 3px; 
+    border: 0px; 
+    border-radius: 0px; 
+    background-image: linear-gradient(to bottom, var(--main), var(--accent5), var(--main)); 
+    line-height: -10px;
+  }
+  
+  #dashmisc .misccont a {
+      border-bottom: none;
+  }
+  
+  #dashmisc .dashmiscp h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+    background: var(--accent5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 1px var(--accent4);
+    margin: 0px 0 -5px;
+    text-align: left;
+  }

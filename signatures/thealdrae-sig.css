@@ -1,0 +1,70 @@
+#theasig {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 30px;
+    grid-template-columns: 33% 33% 33%;
+    --c0: #eee;
+    --c1: #3ea576;
+    --c2: #111b1e;
+    --c3: #2f4c58;
+    --dimg: url("https://i.postimg.cc/ht1WPh7x/Dundavith-blank.png");
+    --acci: url("https://i.postimg.cc/vTRBWxdP/thea3.png");
+    box-sizing: border-box;
+    line-height: normal;
+    margin: 25px auto;
+    width: calc(100% - 50px);
+    max-width: 500px;
+    height: 125px;
+    background: linear-gradient(45deg, var(--c2) 10%, var(--c3) 40%, var(--c1) 80%);
+    border-radius: 100px 25px;
+    padding: 0 25px;
+    font-family: anisette-petite, sans-serif;
+    font-size: 16px;
+    color: var(--c1);
+}
+#theasig .theaname {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 3;
+    font-family: coniferous, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    letter-spacing: 0.65px;
+    padding-top: 15px;
+    padding-left: 40px;
+    text-align: center;
+    line-height: 50%;
+    text-shadow: 1px 1px 2px var(--c3), 1px -1px 2px var(--c2), -1px 1px 2px var(--c2), -1px -1px 2px var(--c2);
+}
+#theasig .thearank {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: -20px;
+    font-family: lullabies-regular, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 100%;
+    color: var(--c1);
+    text-shadow: 1px 1px 1px var(--c3), 1px -1px 1px var(--c2), -1px 1px 1px var(--c2), -1px -1px 1px var(--c2);
+}
+#theasig .theastats {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+    text-align: center;
+    line-height: 50%;
+    text-shadow: 1px 1px 1px var(--c3), 1px -1px 1px var(--c2), -1px 1px 1px var(--c2), -1px -1px 1px var(--c2);
+}
+#theasig .theaimg {
+    position: relative;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 1;
+    left: -60px;
+    background-image: var(--dimg);
+    width: 200px;
+    height: 151px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-2px 2px 1px var(--c2));
+    transform: scaleX(-1);
+}

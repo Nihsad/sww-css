@@ -1,0 +1,78 @@
+#quessig {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 15px;
+    grid-template-columns: 33% 33% 33%;
+    --c0: #eee;
+    --c1: #240004;
+    --c2: #c35a66;
+    --c3: #d0a9a0;
+    --dimg: url("https://i.postimg.cc/g0XHC0bS/Nidaroth.png");
+    box-sizing: border-box;
+    line-height: normal;
+    margin: 25px auto;
+    width: calc(100% - 50px);
+    max-width: 500px;
+    height: 125px;
+    background: linear-gradient(
+      45deg,
+      var(--c2) 10%,
+      var(--c3) 40%,
+      var(--c1) 80%
+    );
+    border-radius: 100px 25px;
+    padding: 0 25px;
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+    color: var(--c1);
+  }
+  .quesname {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 3;
+    font-family: bilbo swash caps, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    letter-spacing: 0.65px;
+    padding-top: 15px;
+    padding-left: 40px;
+    text-align: center;
+    line-height: 50%;
+    text-shadow: 1px 1px 2px var(--c3), 1px -1px 2px var(--c2),
+      -1px 1px 2px var(--c2), -1px -1px 2px var(--c2);
+  }
+  .quesrank {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: -20px;
+    font-family: "Merienda", cursive;
+    font-size: 18px;
+    text-align: center;
+    line-height: 100%;
+    color: var(--c1);
+    text-shadow: 1px 1px 1px var(--c3), 1px -1px 1px var(--c2),
+      -1px 1px 1px var(--c2), -1px -1px 1px var(--c2);
+  }
+  .quesstats {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+    text-align: center;
+    line-height: 50%;
+    text-shadow: 1px 1px 1px var(--c3), 1px -1px 1px var(--c2),
+      -1px 1px 1px var(--c2), -1px -1px 1px var(--c2);
+  }
+  .quesimg {
+    position: relative;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 1;
+    left: -30px;
+    bottom: 10px;
+    background-image: var(--dimg);
+    width: 200px;
+    height: 151px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-2px 2px 1px var(--c2));
+  }
+  

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Palanquin+Dark&family=Peralta&display=swap");
+
+#dashin *{
+  position: relative;
+  line-height: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.valadrie-container {
+  --bg-image: url('https://i.postimg.cc/gJmLshVM/karsten-winegeart-g3-Y6ro-Wp-MYY-unsplash.jpg');
+  --bg-color: rgba(92,93,88,0.8);
+  --text-color: rgb(125,158,163);
+  --border-color: rgb(25,70,89);
+  --shadow-color: rgb(21,58,76);
+  --speech-color: rgb(164, 175, 167);
+  --main-font: 14px 'Poppins', sans-serif;
+  --speech-font: 14px 'Peralta', serif;
+  margin: 0 auto;
+  display: grid;
+  position: relative;
+  grid-template-columns: 5% 85% 10%;
+  grid-template-rows: auto;
+  grid-gap: 0px;
+  width: calc(100% - 20px);
+  max-width: 500px;
+  height: 700px;
+  background: var(--bg-image) no-repeat center/cover;
+  border: 4px solid var(--text-color);
+  outline: 4px solid var(--shadow-color);
+}
+
+.valadrie-title {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 2;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin: 5px 0 10px;
+  font: var(--speech-font);
+  color: var(--speech-color);
+  text-shadow: 2px 0px 1px var(--shadow-color);
+}
+
+.valadrie-post {
+  position: relative;
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 2;
+  width: calc(80%);
+  text-align: justify;
+  overflow: auto;
+  margin: 20px 0;
+  background-color: var(--bg-color);
+  padding: 0 10px;
+  scrollbar-width: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  white-space: pre-line;
+  outline: 4px solid var(--border-color);
+  color: var(--text-color);
+  text-shadow: 0px 0px 4px var(--shadow-color), 0px 0px 4px var(--shadow-color);
+  font: var(--main-font);
+  z-index: 1;
+}
+
+.valadrie-post q {
+  color: var(--speech-color);
+  text-shadow: 2px 2px 0 var(--shadow-color), 2px -2px 0 var(--shadow-color), -2px 2px 0 var(--shadow-color), -2px -2px 0 var(--shadow-color), 2px 0px 0 var(--shadow-color), 0px 2px 0 var(--shadow-color), -2px 0px 0 var(--shadow-color), 0px -2px 0 var(--shadow-color), 2px 2px 0px rgba(21,58,76,0);
+  letter-spacing: 1px;
+  font: var(--speech-font);
+}
+
+.valadrie-post i {
+  color: var(--speech-color);
+  font: var(--speech-font);
+  font-style: italic;
+}
+
+.valadrie-tag {
+  align-self: center;
+  grid-column: 1 / span 4;
+  grid-row: 4 / span 1;
+  text-align: center;
+}
+
+.valadrie-derg {
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+  background-image: url('https://i.postimg.cc/8PYBRGWv/Ossideth-blank.png');
+  background-size: 100%;
+  position: absolute;
+  width: 350px;
+  height: 303px;
+  right: 200px;
+  top: 42px;
+}
+
+
+
+.valadrie-tag a,
+.valadrie-tag a:visited {
+  position: relative;
+  z-index: 1;
+  color: var(--speech-color) !important;
+  font-family: 'Peralta', serif;
+  border-bottom: none;
+  text-decoration: none;
+  bottom: 10px;
+  padding: 0 5px;
+}

@@ -1,0 +1,73 @@
+#nyesig {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 15px;
+    grid-template-columns: 33% 33% 33%;
+    --c0: #eee;
+    --c1: #ced5e0;
+    --c2: #1b2127;
+    --c3: #697184;
+    --dimg: url("https://images2.imgbox.com/bc/b7/n12IZWW9_o.png");
+    box-sizing: border-box;
+    line-height: normal;
+    margin: 25px auto;
+    width: calc(100% - 50px);
+    max-width: 500px;
+    height: 125px;
+    background: linear-gradient(45deg, var(--c2) 10%, var(--c3) 40%, var(--c1) 80%);
+    border-radius: 100px 25px;
+    padding: 0 25px;
+    font-family: quicksand, sans-serif;
+    font-size: 15px;
+    color: var(--c1);
+}
+#nyesig .nyename {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 3;
+    font-family: atocha, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    letter-spacing: 0.65px;
+    padding-top: 15px;
+    padding-left: 40px;
+    text-align: center;
+    line-height: 50%;
+    text-shadow: 1px 1px 2px var(--c3), 1px -1px 2px var(--c2), -1px 1px 2px var(--c2), -1px -1px 2px var(--c2);
+}
+#nyesig .nyerank {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: -40px;
+    font-family: alverata, serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 100%;
+    color: var(--c1);
+    text-shadow: 1px 1px 1px var(--c3), 1px -1px 1px var(--c2), -1px 1px 1px var(--c2), -1px -1px 1px var(--c2);
+}
+#nyesig .nyestats {
+    position: relative;
+    top: 10px;
+    left: -10px;
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+    text-align: center;
+    line-height: 50%;
+    text-shadow: 1px 1px 1px var(--c3), 1px -1px 1px var(--c2), -1px 1px 1px var(--c2), -1px -1px 1px var(--c2);
+}
+#nyesig .nyeimg {
+    position: relative;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 1;
+    left: -80px;
+    top: -20px;
+    background-image: var(--dimg);
+    width: 200px;
+    height: 162px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-2px 2px 1px var(--c2));
+    transform: scaleX(-1);
+}
