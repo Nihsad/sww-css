@@ -7,7 +7,104 @@
     font-size: 16px;
     --bg-image: url('./temp-images/marlevayne.jpg');
     --bg-color:  rgb(33, 78, 77);
-    --text-bg: rgba(33, 78, 77, .7);
+    --text-bg: rgba(33, 78, 77, 0.7);
     --text: rgb(202, 126, 88);
-    --bg-color-rgb: 33,78,77;
+    --bg-color-50: rgba(33,78,77,0.5);
+}
+
+#dashin .marley-container,
+#dashin .marley-img {
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--bg-color);
+}
+
+#dashin .marley-img {
+  height: 309px;
+  background-image: 
+    linear-gradient(to bottom,
+        rgba(255,255,255,0) 70%,
+        var(--bg-color-50) 80%,
+        var(--text-bg)85%,
+        var(--bg-color) 90%), 
+    var(--bg-image);
+  background-size: 550px 309px;
+  background-repeat: no-repeat;
+}
+
+/* Styles for .marley-cont */
+#dashin .marley-cont {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -100px;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: auto;
+  position: relative;
+  text-align: justify;
+  color: #4f6c68;
+  background-color: var(--bg-color);
+  text-shadow: 0 0 2px #02101b;
+  font-family: moret, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+#dashin .marley-cont b {
+  color: #9abec0;
+  text-shadow: none;
+  font-family: coniferous, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+/* Styles for .marley-lyrics */
+#dashin .marley-lyrics {
+  width: 500px;
+  margin: 0 auto;
+  font-family: coniferous, sans-serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: center;
+  background: linear-gradient(#9abec0, #4f6c68);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px 20px 20px 20px;
+}
+
+/* Styles for .marley-tags and .marley-tags-img */
+#dashin .marley-tags,
+#dashin .marley-tags-img {
+  width: 525px;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 0 0 2px #02101b;
+  font-family: moret, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #4f6c68;
+}
+
+#dashin .marley-tags-img {
+  height: 51px;
+  background-image: url('https://i.postimg.cc/SN6GCkMT/divider-5272994-1280.png');
+}
+
+#dashin .marley-tags a {
+  color: #4f6c68;
+  border: none;
+}
+
+/* Link Styles */
+#dashin .marley-tags a:link,
+#dashin .marley-tags a:visited,
+#dashin .marley-tags a:hover,
+#dashin .marley-tags a:active {
+  color: #4f6c68;
+  border: none;
 }

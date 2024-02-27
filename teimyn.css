@@ -1,0 +1,115 @@
+ @import url('https://fonts.googleapis.com/css2?family=Overlock&family=IM+Fell+DW+Pica&family=Freehand&display=swap');
+
+#dashteimyn * {
+  position: relative;
+  line-height: normal;
+  box-sizing: border-box;
+  font-size: 16px;
+  --bg: rgba(124,40,48, .90);
+  --maintxt: rgb(216,120,150);
+  --speech: rgb(232,153,124);
+  --accent1: rgba(58,40,48,.55);
+  --accent2: rgb(223,190,213);
+  --accent3: rgba(49,19,21, 1);
+}
+
+#dashteimyn .teimyncont {
+  display: grid;
+  grid-template-columns: 20px auto auto;
+  grid-template-rows: auto auto;
+  width: calc(100% - 20px);
+  max-width: 550px;
+  height: 700px;
+  padding-top: 12.5px;
+  margin: 25px auto;
+  background-image: url('https://i.postimg.cc/43vBWJxv/flower-gb8a857ec2-1920.jpg');
+  background-size: 550px;
+  background-repeat: no-repeat;
+}
+
+#dashteimyn .teimynpost {
+  position: relative;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
+  width: calc(70% - 30px);
+  height: 730px;
+  margin: -25px 20px;
+  padding: 10px;
+  text-align: justify;
+  background-image: linear-gradient(to bottom, rgba(124,40,48, 1) 0%, rgba(124,40,48,0.8015406846332283) 4%, rgba(124,40,48,0.798739564185049) 96%, rgba(124,40,48,1) 100%);
+  color: var(--maintxt);
+  font: 16px "IM Fell DW Pica", serif;
+  overflow: auto;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+  border-left: 2px solid var(--accent1);
+  border-right: 2px solid var(--accent1);
+  text-shadow: 0px 0px 6px var(--accent3);
+  white-space: pre-line;
+}
+
+#dashteimyn .teimynpost::-webkit-scrollbar { /*Hides the scrollbar in Chrome*/
+  display: none;  
+}
+
+#dashteimyn .teimynpost jivikath {
+  text-shadow: none;
+}
+
+#dashteimyn .teimynpost b {
+  text-shadow: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: .2em;
+  font-family: 'Overlock', serif;
+  color: var(--speech);
+  background: radial-gradient(circle farthest-corner at center center, rgb(249,233,239), rgb(201,203,235));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#dashteimyn .teimynpost i {
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: .2em;
+  font-family: 'IM DW Fell Pica', serif;
+  color: rgb(201,203,235);
+}
+
+#dashteimyn .teimynderg {
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+  background-image: url('https://i.postimg.cc/fRCvd825/Jivikath-blank.png');
+  background-size: 100%;
+  position: absolute;
+  width: 250px;
+  height: 187px;
+  right: -30px;
+  bottom: -30px;
+}
+
+#dashteimyn .teimyntag {
+  position: absolute;
+  justify-self: center;
+  align-self: end;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  width: 400px;
+  margin-left: 40px;
+  bottom: 220px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  color: var(--accent3);
+  text-shadow: 0px 0px 2px rgba(201,203,235,1), 0px 0px 4px rgb(201,203,235);
+  font: 1.5em 'Freehand', cursive;  
+}
+
+#dashteimyn .teimyntag a {
+  border-bottom: none;
+  color: var(--accent3);
+}
