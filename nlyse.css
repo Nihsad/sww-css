@@ -1,0 +1,88 @@
+#nlyse {
+    position: relative;
+    box-sizing: border-box;
+    line-height: normal;
+    font-size: 15px;
+    --bg: #514d56;
+    --mt: #0d1238;
+    --ac1: #a99a7c;
+    --ac2: #777f8e;
+    --acg: linear-gradient(to right, #686160, #a99a7c);
+    --bgi: url("https://images2.imgbox.com/10/39/fplnMF5g_o.png");
+    padding-top: 10px;
+    height: 2vh;
+}
+.nlysec {
+    box-sizing: border-box;
+    margin: 10px auto;
+    width: calc(100% - 50px);
+    max-width: 500px;
+    padding: 0 35px 25px;
+    background-image: var(--bgi);
+    border: 4px solid var(--ac1);
+}
+.nlysep {
+    white-space: pre-line;
+    background: var(--bg);
+    padding: 15px;
+    color: var(--mt);
+    line-height: 120%;
+    text-align: justify;
+    font-family: quicksand, sans-serif;
+    box-shadow: 2px 2px 0px var(--ac2), 2px -2px 0px var(--ac2), -2px 2px 0px var(--ac2), -2px -2px 0px var(--ac2);
+}
+.nlysep b {
+    color: var(--ac1);
+    font-family: alverata, serif;
+    font-size: 13px;
+    letter-spacing: 0.25px;
+}
+.nlysep i {
+    color: var(--ac2);
+}
+.nlysep u {
+    text-decoration-line: underline overline;
+    color: var(--mt);
+    background: var(--acg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    font-family: alverata, serif;
+    font-size: 13px;
+    letter-spacing: 0.25px;
+    padding-right: 4px;
+    margin-right: -4px;
+}
+.nltitle {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    top: 0;
+    height: 50px;
+    font-family: atocha, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: var(--mt);
+    text-align: center;
+    text-shadow: 2px 2px 0px var(--bg), -2px -2px 0px var(--bg), -2px 2px 0px var(--bg), 2px -2px 0px var(--bg);
+}
+.nltag {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 25px;
+    top: 7px;
+    font-family: atocha, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: var(--mt);
+    text-align: center;
+    text-shadow: 1px 1px 0px var(--ac1), -1px -1px 0px var(--ac1), -1px 1px 0px var(--ac1), 1px -1px 0px var(--ac1);
+}
+.nltag a {
+    text-decoration-line: underline;
+    color: var(--mt);
+    border-bottom: none;
+}
