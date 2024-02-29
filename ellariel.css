@@ -68,6 +68,7 @@
 }
 
 #ellariel .ellariel-lyrics {
+    padding: 10px 0;
     grid-area: lyrics;
     font-family: "Marck Script", cursive;
     font-size: 26px;
