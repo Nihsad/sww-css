@@ -17,7 +17,7 @@
     max-width: 550px;
     height: auto;
     max-height: 700px;
-    border: 1px solid;
+    border: 2px solid var(--mt);
     background-image: var(--bgi);
     background-repeat: no-repeat;
     background-position: center;
