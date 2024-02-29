@@ -49,6 +49,7 @@
     font-weight: 600;
     color: var(--mt);
     background-color: var(--bg);
+    max-height: calc(80vh - 10px); /* Adjust 100px according to your padding/margin */
 }
 
 .ellariel-post q, .ellariel-post i {
