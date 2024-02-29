@@ -39,7 +39,6 @@
     box-sizing: border-box;
     position: relative;
     width: calc(100% - 40px);
-    max-height: 700px;
     text-align: justify;
     white-space: pre-line;
     overflow-y: scroll;
