@@ -42,7 +42,7 @@
     color: var(--main);
     border-radius: 55px 55px 55px 55px / 55px 5px 55px 5px; 
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
   }
   
   #dashsig .dashcont hr {
@@ -55,13 +55,10 @@
     background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, var(--main-10) 25%, var(--accent5) 55%, var(--main-10) 95%, rgba(255,255,255,0) 100%); 
     line-height: -10px;
   }
-  
+
   #dashsig .dashcont .dash-title a {
       border-bottom: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 4;
+      margin: 0 2px;
   }
 
   #dashsig .dashcont .dash-title {
@@ -70,6 +67,7 @@
     padding: 5px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
   }
@@ -83,9 +81,10 @@
       left: 0;
       font-family: 'EB Garamond', serif;
       text-transform: uppercase;
-      font-size: 25px;
-      font-weight: 800;
+      font-size: minmax(2vw);
       letter-spacing: 6px;
+      font-weight: bold;
+      text-align: left;
   }
 
   .southern-winds:before {
