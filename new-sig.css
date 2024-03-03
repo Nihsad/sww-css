@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Overlock&family=Overlock+SC&&family=EB+Garamond&display=swap');
+
+#dashin-sig * {
+    box-sizing: border-box;
+    line-height: normal;
+    font-size: 10px;
+    font-family: 'Overlock', sans-serif;
+}
+
+#dashin-sig .dash-cont {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+#dashin-sig span {
+    font-family: 'EB Garamond', serif;
+    font-size: 12px;
+}
+
+#dashin-sig .dash-cols {
+    padding: 5px;
+}
