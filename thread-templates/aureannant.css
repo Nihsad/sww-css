@@ -1,0 +1,89 @@
+#dash-aure * {
+    box-sizing: border-box;
+    line-height: normal;
+    --bgi: url('https://i.postimg.cc/jSnxvdZk/bloom-1866760-1280.jpg');
+    --bg: 136,146,141;
+    --mtxt: 112,43,34;
+    --dkacc: 12,39,40;
+    --ltacc: 189, 155, 142;
+    --txtacc: 222, 93, 21;
+    --sunfl: url('https://i.postimg.cc/XJ80k3vr/sunflower.png');
+}
+
+.aure-container {
+    margin: 0 auto;
+    max-width: 500px;
+    background: linear-gradient(to bottom, 
+    rgb(var(--bg)) 0%, 
+    rgba(var(--bg),1) 50%, 
+    rgba(var(--bg),0.3) 85%),
+        var(--bgi);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: 4px solid rgb(var(--dkacc));
+    border: 4px solid  rgb(var(--txtacc));
+    
+    
+}
+
+.aure-post {
+    white-space: pre-line;
+    text-align: justify;
+    padding: 0 20px 150px;
+    color: rgba(var(--mtxt),1);
+    font-family: 'Overlock', sans-serif;
+    text-shadow: 
+        0px 0px 1px rgb(var(--dkacc)),
+        0px 0px 2px rgb(var(--ltacc)),
+        0px 0px 2px rgb(var(--ltacc));
+}
+
+.aure-post q {
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgb(var(--txtacc));
+}
+
+.aure-post i {
+    color: rgba(var(--txtacc),1);
+    text-shadow: 1px 1px 2px rgb(var(--mtxt)),
+    1px -1px 2px rgb(var(--mtxt)),
+    -1px 1px 2px rgb(var(--mtxt)),
+    -1px -1px 2px rgb(var(--mtxt));
+}
+
+.aure-tags {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10px;    
+    padding-right: 200px;
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+    color: rgb(var(--mtxt));
+}
+
+.aure-tags a,
+.aure-tags a:hover,
+.aure-tags a:active {
+    border-bottom: none;
+    text-decoration: none;
+    color: rgb(var(--ltacc));
+    text-shadow: 
+        0px 0px 1px rgb(var(--mtxt)),
+        0px 0px 2px rgb(var(--mtxt)),
+        0px 0px 2px rgb(var(--mtxt));
+    font-style: italic;
+}
+
+.aure-post::first-letter {
+    float: left;
+    line-height: 35px;
+    font-size: 400%;
+    font-family: Montserrat;
+    color: rgb(var(--mtxt));
+    padding:5px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
