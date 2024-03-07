@@ -15,8 +15,7 @@
 #ellariel .ellariel-container {
     margin: 0 auto;
     max-width: 550px;
-    height: auto;
-    max-height: 700px;
+    height: 700px;
     border: 2px solid var(--mt);
     background-image: var(--bgi);
     background-repeat: no-repeat;
@@ -49,7 +48,6 @@
     font-weight: 600;
     color: var(--mt);
     background-color: var(--bg);
-    max-height: calc(100% - 10px); /* Adjust 100px according to your padding/margin */
 }
 
 .ellariel-post q, .ellariel-post i {
