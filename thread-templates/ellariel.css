@@ -41,7 +41,7 @@
     width: calc(100% - 40px);
     text-align: justify;
     white-space: pre-line;
-    overflow-y: scroll;
+    overflow: scroll;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     font-family: "Handlee", cursive;
@@ -49,7 +49,7 @@
     font-weight: 600;
     color: var(--mt);
     background-color: var(--bg);
-    max-height: calc(80vh - 10px); /* Adjust 100px according to your padding/margin */
+    max-height: calc(100% - 10px); /* Adjust 100px according to your padding/margin */
 }
 
 .ellariel-post q, .ellariel-post i {
