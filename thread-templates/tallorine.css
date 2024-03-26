@@ -1,0 +1,89 @@
+#tallorine * {
+    position: relative;
+    box-sizing: border-box;
+    line-height: normal;
+    font-size: 15px;
+    --bg-i: url('https://i.postimg.cc/fb085Pr0/2125817.png');
+    --bgbg: rgba(78,96,72,.5);
+    --bg: rgba(78,96,72,1);
+    --maintxt: rgba(139,172,121,1);
+    --accent: rgba(182,166,55,1);
+    --accent1: rgb(102, 165, 149);
+    --top: url('https://i.postimg.cc/RZHZmHMG/tal-top.png');
+    --bot: url('https://i.postimg.cc/xT71BRSc/tal-bottom.png');
+}
+
+.tal-container {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    background: linear-gradient(to bottom, var(--bgbg), var(--bgbg)), var(--bg-i);
+    border: 8px double var(--maintxt);
+}
+
+.tal-post {
+    margin: auto;
+    white-space: pre-line;
+    text-align: justify;
+    background-color: var(--bg);
+    padding: 10px;
+    padding-bottom: 55px;
+    color: var(--maintxt);
+}
+
+.tal-post q {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.tal-post i {
+    color: var(--accent1);
+}
+
+.tal-top {
+    margin: auto;
+    left: -10px;
+    top: 15px;
+    margin-top: -10px;
+    transform: rotate(5deg);
+    background-image:  var(--top);
+    background-size: contain;
+    width: 150px;
+    height: 169px;
+    background-repeat: no-repeat;
+    display: block;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.tal-bot {
+    margin: auto;
+    top: -48px;
+    right: -100px;
+    margin-bottom: -73px;
+    transform: rotate(30deg);
+    background-image:  var(--bot);
+    background-size: contain;
+    width: 150px;
+    height: 167px;
+    background-repeat: no-repeat;
+    display: block;
+    background-color: transparent;
+}
+
+.tal-tags,
+.tal-tags a,
+.tal-tags a:hover,
+.tal-tags a:active,
+.tal-tags a:visited {
+    margin: auto;
+    width: 100%;
+    top: -23px;
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: none;
+    text-decoration: none;
+    color: var(--accent);
+}
